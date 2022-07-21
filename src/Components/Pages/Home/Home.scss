@@ -1,0 +1,47 @@
+
+.welcome-section-container{
+  padding-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+
+
+  .profile-image-container{
+    
+    margin: 2rem 0rem 2rem 0rem;
+    text-align: center;
+    width:400px;
+    height:450px;
+  }
+
+  img{
+    width:300px;
+    height:auto;
+    border-radius: 50%;
+    
+  }
+
+  .welcome-text-container{
+    
+    width:700px;
+    height:450px;
+    margin: 2rem 2rem 2rem 2rem;
+    
+
+    h1{
+      font-size: 4rem;
+      color:#01D3B6;
+      margin-bottom: 30px;
+    }
+
+    
+  }
+}
+
+
+
+
+
+  
