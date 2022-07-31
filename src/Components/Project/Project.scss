@@ -15,7 +15,7 @@
 
   .project-container{
     width:450px;
-    height:500px;
+    min-height:500px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -28,7 +28,7 @@
     box-shadow: 0px 1px 0px 0px #01D3B6;
 
     &:hover{
-        cursor: pointer;
+        
         transform: scale(1.02);
 
     }

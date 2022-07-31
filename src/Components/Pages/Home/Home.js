@@ -2,8 +2,11 @@ import './Home.scss'
 
 import {Project} from '../../Project/Project';
 import Recommendations from '../../Recommendations/Recommendations';
+import ContactForm from '../../ContactForm/ContactForm';
+import Footer from '../../Footer/Footer';
 
 import jeanPhoto from '../../../Assets/images/jean-profile.png'
+
 
 
 function Home() {
@@ -30,6 +33,9 @@ function Home() {
     <hr />
     <Recommendations/>
     <hr />
+
+    <ContactForm/>
+    <Footer/>
 
     </>
   );

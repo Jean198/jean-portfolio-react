@@ -26,9 +26,9 @@ export const Project = () => {
             <img src={project.imageUrl}  />
             <p>{project.summary}</p>
             <div>
-              <Link to={project.GitHub}><FaGithub className='GitHub'/></Link>
+              <a href={project.GitHub}><FaGithub className='GitHub'/></a>
             </div>
-            <Button/>
+            <Button projectUrl={project.projectUrl}/>
           </div>
         </div>
         ))}

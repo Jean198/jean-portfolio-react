@@ -1,13 +1,22 @@
 import React from 'react'
 import './Button.scss'
+import {Link} from 'react-router-dom'
 
   
-const Button = ({userInfo}) => {
+const Button = ({projectUrl}) => {
   return (
-    <div className='button'>
-        PROJECT URL
-      {/* <Link to={`/UserDetailedPage/${userInfo.id}`} className="link">MORE DETAILS</Link> */}
-    </div>
+    <>
+      
+        
+        <a href={projectUrl} className="link" target="_blank">
+        <div className='button'>
+          PROJECT URL
+        </div>
+
+        </a>
+      
+    </>
+    
   )
 }
 export default Button
