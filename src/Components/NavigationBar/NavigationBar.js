@@ -13,6 +13,9 @@ const NavigationBar = () => {
                 </Link>
                 </div>
                 <div className='nav-links-container '>
+                <Link to="/" className='nav-link '>
+                    Home
+                </Link>
 
                 <Link to="/about" className='nav-link '>
                     About
@@ -20,9 +23,7 @@ const NavigationBar = () => {
                 <Link to="/Certifications" className='nav-link '>
                     Certifications
                 </Link>
-                <Link to="/blog" className='nav-link '>
-                    Blog
-                </Link>
+                
 
                 </div>
                 

@@ -1,11 +1,13 @@
-import React from 'react'
+import React from 'react';
+import './About.scss'
+import jeanPhoto from '../../../Assets/images/jean-about.jpg'
 export default function About() {
   return (
     <div className='about-container'>
-      <div>
-        <img src="" alt="My profile Pic" />
+      <div className='about-image-container'>
+        <img src={jeanPhoto} alt="My profile Pic" />
       </div>
-      <div>
+      <div className='About-text-container'>
         <h1>About Me</h1>
         <p>
           Hi there!

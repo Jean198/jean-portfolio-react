@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import Button from '../Button/Button'
 import './Project.scss'
 import projects from '../../Assets/ProjectsData.json'
@@ -10,29 +10,40 @@ import {Link} from 'react-router-dom'
 
 
 
-export const Project = () => {
+
+export const Project = ({project}) => {
+  const [readMore, setReadmore]=useState(false)
+
   return (
 
     <>
-    <div className='section-title'><h2 >Projects</h2></div>
+    
 
-    <div className='projects-container'>
+    
         
-        {projects.map((project)=>(
-          <div className='project-container' key={project.id}>
+        
+          <div className='project-container'>
           <div className='project-body-container'>
             <h2>{project.title}</h2>
             
             <img src={project.imageUrl}  />
-            <p>{project.summary}</p>
+            <p >
+
+              { readMore?project.summary:project.summary.substring(0,50)}...
+
+              <button onClick={()=>setReadmore(!readMore)} className="toggle-button">
+                {readMore?"Show less": "Read more"}
+              </button>
+
+            </p>
             <div>
               <a href={project.GitHub}><FaGithub className='GitHub'/></a>
             </div>
             <Button projectUrl={project.projectUrl}/>
           </div>
         </div>
-        ))}
-</div>
+        
+
     </>
     
   )

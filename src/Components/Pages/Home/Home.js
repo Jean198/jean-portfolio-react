@@ -1,5 +1,5 @@
 import './Home.scss'
-
+import projects from '../../../Assets/ProjectsData.json'
 import {Project} from '../../Project/Project';
 import Recommendations from '../../Recommendations/Recommendations';
 import ContactForm from '../../ContactForm/ContactForm';
@@ -17,7 +17,7 @@ function Home() {
       <img src={jeanPhoto} />
       </div>
       <div className='welcome-text-container'>
-        <h1>I'm Jean Niyigaba!</h1>
+        <h1>I'm Jean Niyigaba,</h1>
         <p>
         I have a master’s degree in computational engineering and my passion is coding and developing Web Applications.
         I have worked as trainee software developer at Softrain Blobs Oy where I rewrote a big part of their transportation
@@ -28,14 +28,24 @@ function Home() {
     </div>
 
     <hr />
+
+    <div className='projects-container'>
+
+      {projects.map((project)=>{
+        return(
+          <Project key={project.id} project={project}/>
+        )
+      })}
+
+    </div>
     
-    <Project/>
+   
     <hr />
     <Recommendations/>
     <hr />
 
     <ContactForm/>
-    <Footer/>
+    
 
     </>
   );
