@@ -5,10 +5,7 @@ import './Recommendations.scss'
 
 const Recommendations = () => {
   return (
-
     <>
-      
-      
         {recommendations.map((recommendation)=>(
             <div key={recommendation.id} className="recommendation-container">
                 <h4>{recommendation.name}</h4>
@@ -17,12 +14,7 @@ const Recommendations = () => {
                 <p>{recommendation.letter}</p>
             </div>
         ))}
-
-      
-    
     </>
-    
   )
 }
-
 export default Recommendations

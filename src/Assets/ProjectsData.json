@@ -1,7 +1,7 @@
 [
     {
       "id":1,
-      "title":"Softrain project ( React/Next js/Tailwind CSS )",
+      "title":"Softrain project ",
       "imageUrl":"/images/softrain.png",
       "summary":"While working as trainee software developer at Softrain Blobs Oy, my main task was to rewrite the Logitar software using React and Node js.For this task, my tools choice were Next js as react framework and tailwind css for styling. ",
       "GitHub":"#!",
@@ -9,7 +9,7 @@
     },
     {
       "id":2,
-      "title":"Kivi-Paperi-Sakset ( Nodejs/Express/MongoDB )",
+      "title":"Rock-Scissors-Paper game ",
       "imageUrl":"/images/rock-scissors-paper.png",
       "summary":"I built this app in attempt to solve a challenge that came with an internship position offer. I hope you enjoy this!.",
       "GitHub":"https://github.com/Jean198/rock-scissors-paper",
@@ -17,7 +17,7 @@
     },
     {
       "id":3,
-      "title":"Journal-App ( Nodejs/Express/MongoDB )Project3",
+      "title":"Personal Diary ",
       "imageUrl":"/images/journal.png",
       "summary":"I build this app as course's final project while studying at JAMK. This is an app someone can use as a personal journal to take notes.",
       "GitHub":"project github",
@@ -25,7 +25,7 @@
     },
     {
       "id":4,
-      "title":"Crypto-currency tracker App ( React/Next js )",
+      "title":"Crypto-currency tracker ",
       "imageUrl":"/images/crypt.png",
       "summary":"This app built with Next Js gives current overall information about crypto-currency values on the market.",
       "GitHub":"https://github.com/Jean198/crypto-currency-tracker",
@@ -41,7 +41,7 @@
     },
     {
       "id":6,
-      "title":"Currency Converter ( Node js/express )",
+      "title":"Currency Converter ",
       "imageUrl":"/images/currency.png",
       "summary":"This is another application I built for my own learning. Since I am using a free API, The application has only one base currency and multiple target currencies.",
       "GitHub":"https://github.com/Jean198/currency-converter",

@@ -47,7 +47,7 @@ h5 {
   margin: 0;
   margin-bottom: 1.38rem;
   font-family: "Inconsolata", monospace;
-  font-weight: 400;
+  font-weight: 900;
   line-height: 1.3;
   text-transform: capitalize;
   letter-spacing: 1px;
@@ -67,6 +67,12 @@ h3 {
 
 h4 {
   font-size: 1.563rem;
+}
+
+h5{
+  font-size: 1.1rem;
+  font-weight: 900;
+  
 }
 
 
@@ -108,21 +114,25 @@ h4 {
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
 }
 
-.home-btn {
+
+.projects-btn{
+
   display: inline-block;
-  background-color:  #60dbfb;
-  border: 2px solid #60dbfb;
-  color: #0d0d0d;
+  background-color:  #3c3799;
+  border: 2px solid #3c3799;
+  color: white;
   font-weight: 500;
   text-transform: uppercase;
   padding: 0.75rem 1.25rem;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
   animation: bounce 2s infinite;
+  margin-top: 2rem;
+
 }
 
-.home-btn:hover {
+.projects-btn:hover {
   background: transparent;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
-  color: #60dbfb;
+  color: #3c3799;
 }
 

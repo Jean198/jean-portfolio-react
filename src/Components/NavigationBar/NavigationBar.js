@@ -3,6 +3,7 @@ import {Fragment} from 'react';
 import {Outlet, Link} from 'react-router-dom'
 import './NavigationBar.scss'
 
+
 const NavigationBar = () => {
     return (
         <Fragment>
@@ -16,24 +17,16 @@ const NavigationBar = () => {
                 <Link to="/" className='nav-link '>
                     Home
                 </Link>
-
                 <Link to="/about" className='nav-link '>
                     About
                 </Link>
                 <Link to="/Certifications" className='nav-link '>
                     Certifications
                 </Link>
-                
-
                 </div>
-                
-
             </div>
-
             <Outlet/>
-            
         </Fragment>
     );
 }
-
 export default NavigationBar;

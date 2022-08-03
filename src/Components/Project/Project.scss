@@ -33,10 +33,38 @@
 
       footer h5 {
         margin-bottom: 0;
-        color: #0f172a;
-        font-weight: 500;
+        color: black;
+        font-weight: 900;
+      }
+
+      .project-summary-container{
+        
+        padding: 0 2rem;
       }
   }
+
+
+  .projects-btn{
+
+    display: inline-block;
+    background-color:  #3c3799;
+    border: 2px solid #3c3799;
+    color: white;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 0.75rem 1.25rem;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    animation: bounce 2s infinite;
+    margin-top: 2rem;
+  
+  }
+  
+  .projects-btn:hover {
+    background: transparent;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    color: #3c3799;
+  }
+  
 
     /*
    .project-container{

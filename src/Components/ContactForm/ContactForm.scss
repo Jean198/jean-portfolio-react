@@ -56,18 +56,20 @@
   .submit{
       width: 100%;
       font-weight: 800;
-      background-color: #01D3B6;
-      color:black;
-      padding: .8em .2em;
-      border: 0;
+      background-color: #3c3799;
+      color:white;
+      padding: .8rem .2rem;
+      border: none;
       border-radius: .2em;
       transition: 0.5s;
+      box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
       
   }
 
   .submit:hover{
-      background-color: black;
-      border: solid gray 1px;
-      color:white;
+    background: transparent;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+      color:#3c3799;
       transform: scale(1);
+      border:solid 3px #3c3799;
   }

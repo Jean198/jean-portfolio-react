@@ -1,0 +1,51 @@
+
+.detailed-project-container{
+    width: 40vw;
+    margin: 5rem auto;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 0.25rem;
+    background-color: white;
+
+    img{
+        width: 100%;
+        height:auto;
+        object-fit: cover;
+        border-top-right-radius:  0.25rem;
+        border-top-left-radius:  0.25rem;
+    }
+
+    @media screen and (max-width: 1200px) {
+        
+          width: 80vw;
+        
+   }
+
+   @media screen and (max-width: 700px) {
+        
+    width: 95vw;
+  
+}
+
+}
+
+.detailed-project-summary{
+    padding: 2rem;
+    text-align: center;
+    
+}
+
+.project-link-btn{
+    background-color: green;
+}
+
+.project-link-btn:hover{
+    background:transparent;
+    color:green;
+    border: solid 2px green;
+}
+
+.github-link-btn:hover{
+  background: transparent;
+  color:#3c3799;
+  border: solid 2px #3c3799;
+}

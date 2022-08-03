@@ -5,9 +5,7 @@ import Recommendations from '../../Recommendations/Recommendations';
 import ContactForm from '../../ContactForm/ContactForm';
 import Footer from '../../Footer/Footer';
 import { BrowserRouter, Link } from 'react-router-dom';
-
 import jeanPhoto from '../../../Assets/images/jean-profile.png'
-
 
 
 function Home() {
@@ -25,60 +23,36 @@ function Home() {
         software with modern web technologies including React and Nodejs. <br /><br />
         I am looking for an internship or an entry level role to work and improve my skills.
         </p>
-
         <Link
-            to="#contact-me"
-            target="_blank"
+            to="/about"
+            
             rel="noreferrer"
             className="btn home-btn"
-          >Send me message</Link>
+          >Read more about me</Link> <br />
+          <a className='btn projects-btn' onClick={()=>window.location.replace("/#projects")}>CHECK OUT MY PROJECTS</a>
       </div>
     </div>
-
-    
-
-    <div className='projects-section'>
-
+    <div className='projects-section' id="projects">
         <div className="title">
             <h2>Projects</h2>
             <div className="title-underline"></div>
         </div>
-
         <div className='projects-container'>
-
             {projects.map((project)=>{
               return(
                 <Project key={project.id} project={project}/>
               )
             })}
-
         </div>
-
     </div>
-
-    
-    
    <div className='references-section'>
-
       <div className='title'><h2 >References</h2></div>
       <div className='title-underline'></div>
-
       <div className='recommendations-container'>
-      
-      
       <Recommendations/>
-
     </div>
-
    </div>
-
-    
-    
-    
-
     <ContactForm/>
-    
-
     </>
   );
 }

@@ -1,6 +1,8 @@
 import React from 'react';
 import './About.scss'
 import jeanPhoto from '../../../Assets/images/jean-about.jpg'
+
+
 export default function About() {
   return (
     <div className='about-container'>
