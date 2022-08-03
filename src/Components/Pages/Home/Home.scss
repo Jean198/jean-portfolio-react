@@ -34,14 +34,72 @@
     
 
     h1{
-      font-size: 4rem;
-      color:#01D3B6;
+      color: #0d0d0d;
       margin-bottom: 30px;
     }
 
     
   }
 }
+
+.projects-section{
+
+  padding: 5rem 0;
+  background: #E2E8F0;
+
+  
+
+  .projects-container {
+    
+    background-color:#E2E8F0;
+    
+    width: 90vw;
+    max-width: 1120px;
+    margin: 0 auto 2rem auto;
+    display: grid;
+    gap: 3rem 2rem;
+    grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+    
+  
+    
+  
+  }
+
+  
+
+
+}
+
+.references-section{
+
+  margin-top: 50px;
+
+  .recommendations-container{
+    
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 50px;
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:center;
+    padding: 0 1px;
+    
+  
+    @media screen and (max-width: 768px){
+        width:100%;
+      }
+  
+  
+  }
+
+}
+
+
+
+
+
 
 
 

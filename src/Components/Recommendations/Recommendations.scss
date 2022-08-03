@@ -1,26 +1,10 @@
-.recommendations-container{
-    
-    background-color: white;
-    margin: 0 auto;
-    margin-top: 50px;
-    width:100%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content:center;
-    padding: 0 1px;
-    
-
-    @media screen and (max-width: 768px){
-        width:100%;
-      }
 
 
     .recommendation-container{
     
     
     width:450px;
-    height:200px;
+    max-height: 250px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -40,4 +24,3 @@
         font-style: italic;
         color: #01D3B6;
     }
-}

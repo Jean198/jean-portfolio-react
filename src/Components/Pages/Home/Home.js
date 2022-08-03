@@ -4,6 +4,7 @@ import {Project} from '../../Project/Project';
 import Recommendations from '../../Recommendations/Recommendations';
 import ContactForm from '../../ContactForm/ContactForm';
 import Footer from '../../Footer/Footer';
+import { BrowserRouter, Link } from 'react-router-dom';
 
 import jeanPhoto from '../../../Assets/images/jean-profile.png'
 
@@ -24,25 +25,56 @@ function Home() {
         software with modern web technologies including React and Nodejs. <br /><br />
         I am looking for an internship or an entry level role to work and improve my skills.
         </p>
+
+        <Link
+            to="#contact-me"
+            target="_blank"
+            rel="noreferrer"
+            className="btn home-btn"
+          >Send me message</Link>
       </div>
     </div>
 
-    <hr />
+    
 
-    <div className='projects-container'>
+    <div className='projects-section'>
 
-      {projects.map((project)=>{
-        return(
-          <Project key={project.id} project={project}/>
-        )
-      })}
+        <div className="title">
+            <h2>Projects</h2>
+            <div className="title-underline"></div>
+        </div>
+
+        <div className='projects-container'>
+
+            {projects.map((project)=>{
+              return(
+                <Project key={project.id} project={project}/>
+              )
+            })}
+
+        </div>
 
     </div>
+
     
-   
-    <hr />
-    <Recommendations/>
-    <hr />
+    
+   <div className='references-section'>
+
+      <div className='title'><h2 >References</h2></div>
+      <div className='title-underline'></div>
+
+      <div className='recommendations-container'>
+      
+      
+      <Recommendations/>
+
+    </div>
+
+   </div>
+
+    
+    
+    
 
     <ContactForm/>
     

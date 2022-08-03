@@ -17,12 +17,22 @@ export const Project = ({project}) => {
   return (
 
     <>
+
+    <div className='project-container'>
+
+        <img src={project.imageUrl}  />
+
+        <footer>
+          <h5>{project.title}</h5>
+        </footer>
+
+    </div>
     
 
     
-        
-        
-          <div className='project-container'>
+        {/*
+
+        <div className='project-container'>
           <div className='project-body-container'>
             <h2>{project.title}</h2>
             
@@ -42,6 +52,11 @@ export const Project = ({project}) => {
             <Button projectUrl={project.projectUrl}/>
           </div>
         </div>
+
+          */
+        }
+        
+          
         
 
     </>

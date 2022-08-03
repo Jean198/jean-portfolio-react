@@ -39,10 +39,12 @@ export default function ContactForm() {
   
 
   return (
-<div className="form-container">
+<div className="form-container" id="contact-me">
   
-<div className="section-title">
+<div className="title">
+  
         <h2>Contact Me</h2>
+        <div className='title-underline'></div>
       </div>
         
         < form action="" className="contact-form" method="POST" onSubmit={sendEmail}>
