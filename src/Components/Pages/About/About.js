@@ -5,7 +5,10 @@ import jeanPhoto from '../../../Assets/images/jean-about.jpg'
 
 export default function About() {
   return (
-    <div className='about-container'>
+    <main className='about-main'>
+      <div className='about-container'>
+      
+
       <div className='about-image-container'>
         <img src={jeanPhoto} alt="My profile Pic" />
       </div>
@@ -20,6 +23,10 @@ export default function About() {
           As I am in middle stage of my developer journey, I am hoping to find a place to work , practice and develop my skills so that my dream to work as web developer would become true someday.
         </p>
       </div>
+
+      
+      
     </div>
+    </main>
   )
 }
