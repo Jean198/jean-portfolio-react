@@ -10,7 +10,8 @@ export default function About() {
         <img src={jeanPhoto} alt="My profile Pic" />
       </div>
       <div className='About-text-container'>
-        <h1>About Me</h1>
+        <h1>Jean Niyigaba</h1> 
+        <h5 className='web-developer'>JUNIOR WEB DEVELOPER</h5>
         <p>
           Hi there!
           I am Jean, a master of science in computational engineering and software developer.
