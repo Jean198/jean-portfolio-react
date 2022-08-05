@@ -6,12 +6,14 @@ import ContactForm from '../../ContactForm/ContactForm';
 import Footer from '../../Footer/Footer';
 import { BrowserRouter, Link } from 'react-router-dom';
 import jeanPhoto from '../../../Assets/images/jean-profile.png'
+import Navbar from '../../NewNav/Navbar';
 
 
 function Home() {
   return (
     <>
     <div className='welcome-section-container'>
+      
       <div className='profile-image-container'>
       <img src={jeanPhoto} />
       </div>
