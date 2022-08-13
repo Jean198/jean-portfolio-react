@@ -23,6 +23,7 @@ const Navbar = () => {
     <nav>
       <div className='nav-center'>
         <div className='nav-header'>
+
           <h2>NJ</h2>
           <button className='nav-toggle' onClick={toggleLinks}>
             <FaBars />

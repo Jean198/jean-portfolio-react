@@ -33,11 +33,11 @@
     },
     {
       "id":5,
-      "title":"Weather App",
-      "imageUrl":"/images/weather.png",
-      "summary":"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly.",
-      "GitHub":"project github",
-      "projectUrl":"https://www.softrain.fi/tuotteet/"
+      "title":"Iphone-Stopwatch",
+      "imageUrl":"/images/iphone-stopwatch.png",
+      "summary":"My attempt to clone the Iphone Stopwatch !",
+      "GitHub":"https://github.com/Jean198/iphone-Stopwatch-React",
+      "projectUrl":"https://rad-daffodil-3adb39.netlify.app/"
     },
     {
       "id":6,

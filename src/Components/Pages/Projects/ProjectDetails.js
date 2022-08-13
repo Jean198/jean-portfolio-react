@@ -17,8 +17,8 @@ const ProjectDetails=()=>{
                             <p>
                                 {project.summary}
                             </p>
-                            <a className="btn github-link-btn">GitHub Link <FaGithub className='GitHub'/></a>  <br /> <br />
-                            <a className="btn project-link-btn">Project Link</a>
+                            <a href={project.GitHub} className="btn github-link-btn">GitHub Link <FaGithub className='GitHub'/></a>  <br /> <br />
+                            <a href={project.projectUrl}className="btn project-link-btn">Project Link</a>
                         </div>
                     </div>
                 )
