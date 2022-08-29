@@ -18,7 +18,7 @@
     {
       "id":3,
       "title":"Personal Diary ",
-      "imageUrl":"/images/journal.png",
+      "imageUrl":"/images/journal1.png",
       "summary":"I build this app as course's final project while studying at JAMK. This is an app someone can use as a personal journal to take notes.",
       "GitHub":"project github",
       "projectUrl":"https://www.softrain.fi/tuotteet/"
@@ -46,6 +46,16 @@
       "summary":"This is another application I built for my own learning. Since I am using a free API, The application has only one base currency and multiple target currencies.",
       "GitHub":"https://github.com/Jean198/currency-converter",
       "projectUrl":"https://jn-currency-converter.herokuapp.com/"
+    },
+
+    {
+      "id":7,
+      "title":"Countries info ",
+      "imageUrl":"/images/countries.png",
+      "summary":"You get basic information about all the countries in the world from this app!",
+      "GitHub":"https://github.com/Jean198/fullst4ck0pen-2022/tree/main/part2/countries",
+      "projectUrl":"https://jn-currency-converter.herokuapp.com/"
     }
-   
+
+
 ]
