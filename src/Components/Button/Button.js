@@ -1,16 +1,14 @@
-import React from 'react'
-import './Button.scss'
-import {Link} from 'react-router-dom'
+import React from "react";
+import "./Button.scss";
+import { Link } from "react-router-dom";
 
-const Button = ({projectUrl}) => {
+const Button = ({ projectUrl }) => {
   return (
     <>
-        <a href={projectUrl} className="link" target="_blank">
-        <div className='button'>
-          PROJECT URL
-        </div>
-        </a>
+      <a href={projectUrl} className="link" target="_blank">
+        <div className="button">PROJECT URL</div>
+      </a>
     </>
-  )
-}
-export default Button
+  );
+};
+export default Button;

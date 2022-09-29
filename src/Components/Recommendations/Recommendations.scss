@@ -1,26 +1,19 @@
+.recommendation-container {
+  width: 450px;
+  max-height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  margin: 0.5rem 2rem 0.5rem 2rem;
+  transition: 0.3s;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0.15px 0px 0px 0.15px #01d3b6;
+}
 
-
-    .recommendation-container{
-    
-    
-    width:450px;
-    max-height: 250px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-    margin: 0.5rem 2rem 0.5rem 2rem;
-    transition: 0.3s;
-    padding: 1.5rem;
-    border-radius: 10px;
-    box-shadow: 0.15px 0px 0px 0.15px #01D3B6;
-    
-    
-
-    }
-
-    .email{
-        font-style: italic;
-        color: #60dbfb;
-    }
+.email {
+  font-style: italic;
+  color: #60dbfb;
+}

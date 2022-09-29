@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap");
 * {
-    margin: 0;
-    padding: 0;
-    
-  }
+  margin: 0;
+  padding: 0;
+}
 
 body {
   margin: 0;
@@ -13,27 +12,27 @@ body {
   font-weight: 400;
   line-height: 1.75;
   color: var(--grey-900);
-  
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
-a{
+.under-construction {
+  color: red;
+  text-align: center;
+  font-size: 1.2em;
+}
+a {
   text-decoration: none;
-  color:black;
+  color: black;
 }
 
-*{
+* {
   box-sizing: border-box;
 }
 
-
-
-
-hr{
+hr {
   width: 70%;
   margin: 0 auto;
   margin-top: 50px;
@@ -69,21 +68,15 @@ h4 {
   font-size: 1.563rem;
 }
 
-h5{
+h5 {
   font-size: 1.1rem;
   font-weight: 900;
-  
 }
-
-
 
 .title {
   text-align: center;
   margin-bottom: 3rem;
-  
-  
 }
-
 
 .title-underline {
   height: 0.2rem;
@@ -93,26 +86,21 @@ h5{
   margin-top: 2rem;
 }
 
-
 .btn {
   cursor: pointer;
   appearance: none;
   color: white;
-  background:  #645cff;
+  background: #645cff;
   border: none;
   border-radius: 0.25rem;
   letter-spacing: 1px;
   padding: 0.375rem 0.75rem;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
   transition: 0.3s ease-in-out all;
-  
 }
 
 .btn:hover {
   color: white;
-  background:  #3c3799;
+  background: #3c3799;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
 }
-
-
-

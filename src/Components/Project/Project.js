@@ -1,21 +1,20 @@
-import React, {useState} from 'react'
-import Button from '../Button/Button'
-import './Project.scss'
+import React, { useState } from "react";
+import Button from "../Button/Button";
+import "./Project.scss";
 //import projects from '../../Assets/ProjectsData.json'
-import {Link} from 'react-router-dom'
+import { Link } from "react-router-dom";
 
-
-export const Project = ({project}) => {
+export const Project = ({ project }) => {
   //const [readMore, setReadmore]=useState(false)
   return (
     <>
-    <Link to={`/project/${project.id}`} className='project-container'>
-        <img src={project.imageUrl}  />
+      <Link to={`/project/${project.id}`} className="project-container">
+        <img src={project.imageUrl} />
         <footer>
           <h5>{project.title}</h5>
         </footer>
-    </Link>
-        {/*
+      </Link>
+      {/*
         <div className='project-container'>
           <div className='project-body-container'>
             <h2>{project.title}</h2>
@@ -32,8 +31,7 @@ export const Project = ({project}) => {
             <Button projectUrl={project.projectUrl}/>
           </div>
         </div>
-          */
-        }
+          */}
     </>
-  )
-}
+  );
+};

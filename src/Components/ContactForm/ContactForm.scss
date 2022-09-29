@@ -1,75 +1,65 @@
 /*Contact Form-----------------------------------------------*/
 
 .inputGroup {
-    height: 50%;
-    width: 200%;
-    display: flex;
-    flex-direction: column;
-    margin: 10px 0;
-  }
-  .inputLabel {
-    text-align: left;
-  }
-  .inputField {
-    height: 30px;
-  }
-
-
-  /* Form------------------------------------------------------------------------------------*/
-
-  .form-container{
-      
-      
-      margin-top: 100px;
-      margin-bottom: 150px;
-
-      
-      
+  height: 50%;
+  width: 200%;
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+}
+.inputLabel {
+  text-align: left;
+}
+.inputField {
+  height: 30px;
 }
 
-  .contact-form{
-      
-      /*border: solid 1px #2FFFE5;*/
-      margin:0 auto;
-      margin-top: 10px;
-      width:70%;
-      padding: 1em;
-      border-radius: 3px;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
+/* Form------------------------------------------------------------------------------------*/
 
-      @media screen and (max-width: 768px){
-        width:90%;
-      }
+.form-container {
+  margin-top: 100px;
+  margin-bottom: 150px;
+}
 
-    }
+.contact-form {
+  /*border: solid 1px #2FFFE5;*/
+  margin: 0 auto;
+  margin-top: 10px;
+  width: 70%;
+  padding: 1em;
+  border-radius: 3px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
 
-  .input{
-      margin-top:10px;
-      width: 100%;
-      padding: 0.5em 0em;
+  @media screen and (max-width: 768px) {
+    width: 90%;
   }
+}
 
-  .message{
-      width:100%;
-      
-  }
-  .submit{
-      width: 100%;
-      font-weight: 800;
-      background-color: #3c3799;
-      color:white;
-      padding: .8rem .2rem;
-      border: none;
-      border-radius: .2em;
-      transition: 0.5s;
-      box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
-      
-  }
+.input {
+  margin-top: 10px;
+  width: 100%;
+  padding: 0.5em 0em;
+}
 
-  .submit:hover{
-    background: transparent;
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
-      color:#3c3799;
-      transform: scale(1);
-      border:solid 3px #3c3799;
-  }
+.message {
+  width: 100%;
+}
+.submit {
+  width: 100%;
+  font-weight: 800;
+  background-color: #3c3799;
+  color: white;
+  padding: 0.8rem 0.2rem;
+  border: none;
+  border-radius: 0.2em;
+  transition: 0.5s;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+.submit:hover {
+  background: transparent;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  color: #3c3799;
+  transform: scale(1);
+  border: solid 3px #3c3799;
+}

@@ -20,8 +20,8 @@
       "title":"Personal Diary ",
       "imageUrl":"/images/journal1.png",
       "summary":"I build this app as course's final project while studying at JAMK. This is an app someone can use as a personal journal to take notes.",
-      "GitHub":"project github",
-      "projectUrl":"https://www.softrain.fi/tuotteet/"
+      "GitHub":"https://github.com/Jean198/Jeans-journal",
+      "projectUrl":"https://jeans-journal.herokuapp.com/"
     },
     {
       "id":4,
@@ -54,8 +54,21 @@
       "imageUrl":"/images/countries.png",
       "summary":"You get basic information about all the countries in the world from this app!",
       "GitHub":"https://github.com/Jean198/fullst4ck0pen-2022/tree/main/part2/countries",
-      "projectUrl":"https://jn-currency-converter.herokuapp.com/"
+      "projectUrl":"#"
     }
+
+    ,
+
+    {
+      "id":8,
+      "title":"Memory-Game ",
+      "imageUrl":"/images/memory-game.png",
+      "summary":"Simple memory game build with React. Hope you enjoy it!",
+      "GitHub":"https://github.com/Jean198/memory-game-react",
+      "projectUrl":"https://resplendent-sprite-cfae70.netlify.app/"
+    }
+
+
 
 
 ]
