@@ -20,7 +20,7 @@ const ProjectDetails = () => {
                   GitHub Link <FaGithub className="GitHub" />
                 </a>{" "}
                 <br /> <br />
-                <a href={project.projectUrl} className="custom-btn project-link-btn link">
+                <a href={project.projectUrl} className="custom-btn project-link-btn link" target="blank">
                   Project Link
                 </a>
               </div>
