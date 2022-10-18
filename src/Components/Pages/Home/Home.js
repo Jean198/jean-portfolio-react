@@ -7,16 +7,15 @@ import Footer from "../../Footer/Footer";
 import { BrowserRouter, Link } from "react-router-dom";
 import jeanPhoto from "../../../Assets/images/jean-profile.png";
 
-
 function Home() {
   return (
     <>
-      <div>
+      {/* <div>
         <p className="under-construction">
           This site is still under construction, I apologize for things that
           might not work as expected!
         </p>
-      </div>
+      </div>*/}
       <div className="welcome-section-container">
         <div className="profile-image-container">
           <img src={jeanPhoto} />
@@ -32,7 +31,11 @@ function Home() {
             <br />I am looking for an internship or an entry level role to work
             and improve my skills.
           </p>
-          <Link to="/about" rel="noreferrer" className=" custom-btn home-btn link">
+          <Link
+            to="/about"
+            rel="noreferrer"
+            className=" custom-btn home-btn link"
+          >
             Read more about me
           </Link>{" "}
           <br />
