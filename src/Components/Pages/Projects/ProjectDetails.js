@@ -16,11 +16,11 @@ const ProjectDetails = () => {
               <div className="detailed-project-summary">
                 <h5>{project.title}</h5>
                 <p>{project.summary}</p>
-                <a href={project.GitHub} className="btn github-link-btn">
+                <a href={project.GitHub} className="custom-btn github-link-btn link">
                   GitHub Link <FaGithub className="GitHub" />
                 </a>{" "}
                 <br /> <br />
-                <a href={project.projectUrl} className="btn project-link-btn">
+                <a href={project.projectUrl} className="custom-btn project-link-btn link">
                   Project Link
                 </a>
               </div>

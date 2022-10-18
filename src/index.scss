@@ -6,7 +6,7 @@
 
 body {
   margin: 0;
-  font-family: "Inconsolata", monospace;
+  font-family: 'Nunito', monospace !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
@@ -86,7 +86,7 @@ h5 {
   margin-top: 2rem;
 }
 
-.btn {
+.custom-btn {
   cursor: pointer;
   appearance: none;
   color: white;
@@ -99,7 +99,7 @@ h5 {
   transition: 0.3s ease-in-out all;
 }
 
-.btn:hover {
+.custom-btn:hover {
   color: white;
   background: #3c3799;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);

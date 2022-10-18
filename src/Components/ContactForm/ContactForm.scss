@@ -17,8 +17,10 @@
 /* Form------------------------------------------------------------------------------------*/
 
 .form-container {
+  padding: 30px 0;
   margin-top: 100px;
   margin-bottom: 150px;
+  background-color: #F5F5F8;
 }
 
 .contact-form {
@@ -43,12 +45,13 @@
 
 .message {
   width: 100%;
+  padding: 10px 20px;
 }
 .submit {
   width: 100%;
   font-weight: 800;
-  background-color: #3c3799;
-  color: white;
+  background-color: #60DBFB;
+  color: black;
   padding: 0.8rem 0.2rem;
   border: none;
   border-radius: 0.2em;
@@ -59,7 +62,7 @@
 .submit:hover {
   background: transparent;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
-  color: #3c3799;
+  color: #60DBFB;
   transform: scale(1);
-  border: solid 3px #3c3799;
+  border: solid 3px #60DBFB;
 }

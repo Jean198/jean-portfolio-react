@@ -1,8 +1,9 @@
 import React from "react";
+import './Certifications.scss'
 
 const Certifications = () => {
   return (
-    <div>
+    <div className="container certifications-container">
       There are many variations of passages of Lorem Ipsum available, but the
       majority have suffered alteration in some form, by injected humour, or
       randomised words which don't look even slightly believable. If you are

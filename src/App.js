@@ -10,7 +10,7 @@ import Footer from "./Components/Footer/Footer";
 
 export default function App() {
   return (
-    <div className="overall-container">
+    <div className="container overall-container">
       <Routes>
         <Route path="/" element={<NavigationBar />}>
           <Route index element={<Home />} />

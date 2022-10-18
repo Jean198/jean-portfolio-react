@@ -32,12 +32,12 @@ function Home() {
             <br />I am looking for an internship or an entry level role to work
             and improve my skills.
           </p>
-          <Link to="/about" rel="noreferrer" className="btn home-btn">
+          <Link to="/about" rel="noreferrer" className=" custom-btn home-btn link">
             Read more about me
           </Link>{" "}
           <br />
           <a
-            className="btn projects-btn"
+            className="custom-btn projects-btn link"
             onClick={() => window.location.replace("/#projects")}
           >
             CHECK OUT MY PROJECTS
