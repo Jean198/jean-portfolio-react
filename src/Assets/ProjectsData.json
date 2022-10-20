@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "title": "Softrain project ",
+    "title": "Softrain project",
     "imageUrl": "/images/softrain.png",
     "summary": "While working as trainee software developer at Softrain Blobs Oy, my main task was to rewrite the Logitar software using React and Node js.For this task, my tools choice were Next js as react framework and tailwind css for styling. ",
     "GitHub": "#!",

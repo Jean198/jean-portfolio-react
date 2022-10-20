@@ -16,11 +16,22 @@ const ProjectDetails = () => {
               <div className="detailed-project-summary">
                 <h5>{project.title}</h5>
                 <p>{project.summary}</p>
-                <a href={project.GitHub} className="custom-btn github-link-btn link">
-                  GitHub Link <FaGithub className="GitHub" />
-                </a>{" "}
+                {project.id === 1 ? (
+                  ""
+                ) : (
+                  <a
+                    href={project.GitHub}
+                    className="custom-btn github-link-btn link"
+                  >
+                    GitHub Link <FaGithub className="GitHub" />
+                  </a>
+                )}
                 <br /> <br />
-                <a href={project.projectUrl} className="custom-btn project-link-btn link" target="blank">
+                <a
+                  href={project.projectUrl}
+                  className="custom-btn project-link-btn link"
+                  target="blank"
+                >
                   Project Link
                 </a>
               </div>
