@@ -51,9 +51,15 @@ const NavigationBar = () => {
           <Link to="/about" className="nav-link ">
             About
           </Link>
-          <Link to="/Certifications" className="nav-link ">
-            Certifications
-          </Link>
+          <a
+            className="nav-link link"
+            href={Cv}
+            alt="alt text"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Resume
+          </a>
         </div>
       ) : null}
       <Outlet />
