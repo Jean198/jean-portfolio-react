@@ -1,20 +1,31 @@
 .project-container {
   border-radius: 0.25rem;
   background: white;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   transition: 0.3s ease-in-out all;
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+
 
   &:hover {
     transform: scale(1.05);
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
   }
 
+  .project-image-container{
+    margin-top: 20px;
+    justify-content: center;
+    width:90%;
+    border-radius: 0.25rem;
+
+  }
+
   img {
     width: 100%;
     display: block;
-    border-top-left-radius: 0.25rem;
-    border-top-right-radius: 0.25rem;
+    border-radius: 0.25rem;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
     height: 15rem;
     object-fit: cover;
   }
@@ -29,8 +40,7 @@
 
   footer h5 {
     margin-bottom: 0;
-    color: #121A2E;
-
+    color: #121a2e;
   }
 
   .project-summary-container {
@@ -57,33 +67,3 @@
   color: #3c3799;
 }
 
-/*
-   .project-container{
-
-    padding: 10px 5px;
-
-    h2{
-        margin-bottom: 40px;
-    }
-
-
-
-    p{
-        margin-bottom: 20px;
-        transition: 0.5s;
-    }
-
-    .GitHub{
-       font-size: 2rem;
-       color:#01D3B6;
-    }
-
-
-   }
-  }
-
-  .toggle-button{
-    transition: 0.5s;
-  }
-
-  */

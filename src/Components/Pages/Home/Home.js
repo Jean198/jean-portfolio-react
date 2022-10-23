@@ -49,7 +49,7 @@ function Home() {
       </div>
       <div className="projects-section" id="projects">
         <div className="title">
-          <h2>Projects</h2>
+          <h2>My Portfolio</h2>
           <div className="title-underline"></div>
         </div>
         <div className="projects-container">

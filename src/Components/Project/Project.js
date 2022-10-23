@@ -8,7 +8,9 @@ export const Project = ({ project }) => {
   return (
     <>
       <Link to={`/project/${project.id}`} className="project-container link">
-        <img src={project.imageUrl} />
+        <div className="project-image-container">
+          <img src={project.imageUrl} />
+        </div>
         <footer>
           <h5 className="">{project.title}</h5>
         </footer>
