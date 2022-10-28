@@ -23,7 +23,7 @@ function Home() {
         <div className="welcome-text-container">
           <h1>I'm Jean Niyigaba,</h1>
           <p>
-            I have a master’s degree in computational engineering and my passion
+            Welcome to my portfolio site! <br /><br /> I have a master’s degree in computational engineering and my passion
             is coding and developing Web Applications. I have worked as trainee
             software developer at Softrain Blobs Oy where I rewrote a big part
             of their transportation software with modern web technologies
