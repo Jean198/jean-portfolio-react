@@ -1,23 +1,24 @@
+
 [
     {
       "id":1,
       "name":"Esko Ronkainen",
       "position":"CEO at Softrain Blobs Oy",
       "email":"esko.ronkainen@softrain.fi",
-      "letter":"Link to the Letter"
+      "letterName":"softrain"
     },
     {
       "id":2,
       "name":"Jouni Huotari",
       "position":"Principal lecturer at JAMK and CEO at Nestronite",
       "email":"jouni.huotari@jamk.fi",
-      "letter":""
+      "letterName":null
     },
     {
       "id":3,
       "name":"Matti Mieskolainen ",
       "position":" Lehtori, Senior Lecturer at JAMK",
       "email":"matti.mieskolainen@jamk.fi",
-      "letter":""
+      "letterName":null
     }
 ]
