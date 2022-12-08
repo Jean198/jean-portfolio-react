@@ -64,5 +64,14 @@
     "summary": "Simple memory game build with React. Hope you enjoy it!",
     "GitHub": "https://github.com/Jean198/memory-game-react",
     "projectUrl": "https://resplendent-sprite-cfae70.netlify.app/"
+  },
+
+  {
+    "id": 9,
+    "title": "Todo App ",
+    "imageUrl": "/images/todoApp.png",
+    "summary": "Simple todo App build with expressjs and EJS!",
+    "GitHub": "https://github.com/Jean198/todoApp-expressjs-ejs",
+    "projectUrl": "https://todo-app-expressjs-ejs.herokuapp.com/"
   }
 ]

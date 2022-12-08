@@ -21,7 +21,7 @@ function Home() {
           <img src={jeanPhoto} />
         </div>
         <div className="welcome-text-container">
-          <h1>I'm Jean Niyigaba,</h1>
+          <h1 className="name">I'm Jean Niyigaba,</h1>
           <p>
             Welcome to my portfolio site! <br /><br /> I have a master’s degree in computational engineering and my passion
             is coding and developing Web Applications. I have worked as trainee
