@@ -15,7 +15,7 @@
     border-radius: 50%;
     position: relative;
   }
-
+/*
   .profile-image-container::before {
     content: "";
     width: 100%;
@@ -26,6 +26,7 @@
     right: 0.2rem;
     border-radius: 50%;
   }
+  */
 
   img {
     width: 100%;
@@ -34,6 +35,7 @@
     object-fit: cover;
     border-radius: 50%;
     position: relative;
+
   }
 
   .welcome-text-container {
@@ -41,18 +43,27 @@
     min-height: 450px;
     margin: 2rem 2rem 2rem 2rem;
 
+    @media screen and (max-width: 768px){
+      text-align: center;
+
+      h1{
+        font-size: 40px;
+      }
+    }
+
     h1 {
-      color: #0d0d0d;
+      color: #5E5E5E;
       margin-bottom: 30px;
+      letter-spacing: 5px;
 
     }
   }
 
   .home-btn {
     display: inline-block;
-    background-color: #60dbfb;
-    border: 2px solid #60dbfb;
-    color: #0d0d0d;
+    background-color: #1abc9c;
+    border: 2px solid #1abc9c;
+    color: #fff;
     font-weight: 500;
     text-transform: uppercase;
     padding: 0.75rem 1.25rem;
@@ -63,17 +74,29 @@
   .home-btn:hover {
     background: transparent;
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
-    color: #60dbfb;
+    color: #1abc9c;
   }
+
+  @media screen and (max-width: 768px){
+    padding-top:20px;
+  }
+}
+
+.project-section-overall-container{
+  background-color: #F8F8F8;
 }
 
 .projects-section {
   padding: 5rem 1rem;
-  background: #E2E8F0;//#F5F5F8;
+  background: #F8F8F8;//#F5F5F8;
+
+  h2{
+    color:#5E5E5E;
+  }
 
   .projects-container {
     width: 100%;
-    max-width: 1120px;
+
     margin: 0 auto 2rem auto;
     display: grid;
     gap: 3rem 2rem;
@@ -83,6 +106,10 @@
 
 .references-section {
   margin-top: 50px;
+
+  h2{
+    color:#5E5E5E;
+  }
 
   .recommendations-container {
     background-color: white;

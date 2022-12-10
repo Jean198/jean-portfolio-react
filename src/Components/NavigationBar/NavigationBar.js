@@ -14,10 +14,11 @@ const NavigationBar = () => {
 
   return (
     <Fragment>
-      <div className="navigation-bar">
+      <div className="navbar-overall-container">
+      <div className="navigation-bar container">
         <div className="logo-container">
           <Link to="/" className="link">
-            <h1 className="logo">JN</h1>
+            <h4 className="logo">JEAN</h4>
           </Link>
         </div>
         <button className="nav-toggle" onClick={toggleLinks}>
@@ -25,10 +26,10 @@ const NavigationBar = () => {
         </button>
         <div className="nav-links-container ">
           <Link to="/" className="nav-link ">
-            Home
+            HOME
           </Link>
           <Link to="/about" className="nav-link ">
-            About
+            ABOUT
           </Link>
 
           <a
@@ -38,13 +39,13 @@ const NavigationBar = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Resume
+            RESUME
           </a>
         </div>
-      </div>
 
+      </div>
       {showLinks ? (
-        <div className="mobile-nav-links-container ">
+        <div className="mobile-nav-links-container">
           <Link to="/" className="nav-link ">
             Home
           </Link>
@@ -62,6 +63,9 @@ const NavigationBar = () => {
           </a>
         </div>
       ) : null}
+      </div>
+
+
       <Outlet />
     </Fragment>
   );

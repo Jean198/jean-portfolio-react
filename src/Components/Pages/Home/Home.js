@@ -16,18 +16,19 @@ function Home() {
           might not work as expected!
         </p>
       </div>*/}
-      <div className="welcome-section-container">
+      <div className="welcome-section-container container ">
         <div className="profile-image-container">
           <img src={jeanPhoto} />
         </div>
         <div className="welcome-text-container">
           <h1 className="name">I'm Jean Niyigaba,</h1>
           <p>
-            Welcome to my portfolio site! <br /><br /> I have a master’s degree in computational engineering and my passion
-            is coding and developing Web Applications. I have worked as trainee
-            software developer at Softrain Blobs Oy where I rewrote a big part
-            of their transportation software with modern web technologies
-            including React and Nodejs. <br />
+            Welcome to my portfolio site! <br />
+            <br /> I have a master’s degree in computational engineering and my
+            passion is coding and developing Web Applications. I have worked as
+            trainee software developer at Softrain Blobs Oy where I rewrote a
+            big part of their transportation software with modern web
+            technologies including React and Nodejs. <br />
             <br />I am looking for an internship or an entry level role to work
             and improve my skills.
           </p>
@@ -47,23 +48,25 @@ function Home() {
           </a>
         </div>
       </div>
-      <div className="projects-section" id="projects">
-        <div className="title">
-          <h2>My Portfolio</h2>
-          <div className="title-underline"></div>
-        </div>
-        <div className="projects-container">
-          {projects.map((project) => {
-            return <Project key={project.id} project={project} />;
-          })}
+      <div className="project-section-overall-container">
+        <div className="projects-section container" id="projects">
+          <div className="title">
+            <h2>My Portfolio</h2>
+            <div className="title-underline"></div>
+          </div>
+          <div className="projects-container">
+            {projects.map((project) => {
+              return <Project key={project.id} project={project} />;
+            })}
+          </div>
         </div>
       </div>
-      <div className="references-section">
+      <div className="references-section conatiner">
         <div className="title">
           <h2>References</h2>
         </div>
         <div className="title-underline"></div>
-        <div className="recommendations-container">
+        <div className="recommendations-container container">
           <Recommendations />
         </div>
       </div>

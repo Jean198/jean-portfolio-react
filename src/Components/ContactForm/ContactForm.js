@@ -34,14 +34,15 @@ export default function ContactForm() {
     showResult(false);
   }, 5000);
   return (
-    <div className="form-container" id="contact-me">
+    <div className="overall-form-container">
+      <div className="form-container container" id="contact-me">
       <div className="title">
         <h2>Contact Me</h2>
         <div className="title-underline"></div>
       </div>
       <form
         action=""
-        className="contact-form"
+        className="contact-form form-group"
         method="POST"
         onSubmit={sendEmail}
       >
@@ -51,7 +52,7 @@ export default function ContactForm() {
           type="text"
           name="name"
           placeholder="Your name"
-          className="input"
+          className="input form-control"
           required
         />{" "}
         <br />
@@ -62,7 +63,7 @@ export default function ContactForm() {
           type="email"
           name="email"
           placeholder="Your email"
-          className="input"
+          className="input form-control"
           required
         />{" "}
         <br /> <br />
@@ -71,13 +72,14 @@ export default function ContactForm() {
           name="message"
           id=""
           rows="10"
-          className="message"
+          className="message form-control"
           required
         ></textarea>{" "}
         <br />
-        <input type="submit" value="Send" className="submit" />
+        <input type="submit" value="Send" className="submit btn btn-success-light" />
         <div className="row">{result ? <Result /> : null}</div>
       </form>
+    </div>
     </div>
   );
 }

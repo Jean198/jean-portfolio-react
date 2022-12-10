@@ -7,14 +7,14 @@ export default function Footer() {
   return (
     <Fragment>
       <Outlet />
-      <div className="footer">
-        <div className="footer-elem">
+      <div className="footer row">
+        <div className="footer-elem col-lg-4">
           <p>2021 Jean Niyigaba - All rights reserved</p>
         </div>
-        <div className="footer-elem footer-logo">
+        <div className="footer-elem footer-logo col-lg-4">
           <p>JN</p>
         </div>
-        <div className="footer-elem">
+        <div className="footer-elem col-lg-4">
           <p>
             <a href="" className="footer-icons">
               <FaGithub className="text-2xl" />{" "}
