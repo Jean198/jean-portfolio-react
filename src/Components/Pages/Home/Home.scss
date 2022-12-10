@@ -89,6 +89,7 @@
 .projects-section {
   padding: 5rem 1rem;
   background: #F8F8F8;//#F5F5F8;
+  text-align: center;
 
   h2{
     color:#5E5E5E;
@@ -101,6 +102,16 @@
     display: grid;
     gap: 3rem 2rem;
     grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+  }
+
+  .see-all-button {
+    margin:0 auto;
+    letter-spacing: 5px;
+
+  }
+
+  .see-less{
+    transform: rotate(180deg);
   }
 }
 

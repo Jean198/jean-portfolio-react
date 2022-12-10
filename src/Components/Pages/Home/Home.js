@@ -6,8 +6,13 @@ import ContactForm from "../../ContactForm/ContactForm";
 import Footer from "../../Footer/Footer";
 import { BrowserRouter, Link } from "react-router-dom";
 import jeanPhoto from "../../../Assets/images/jean-profile.png";
+import { useState } from "react";
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+
+
 
 function Home() {
+  const [seeAll, setSeeAll] = useState(false);
   return (
     <>
       {/* <div>
@@ -55,10 +60,31 @@ function Home() {
             <div className="title-underline"></div>
           </div>
           <div className="projects-container">
-            {projects.map((project) => {
-              return <Project key={project.id} project={project} />;
-            })}
+            {!seeAll
+              ? projects.slice(0, 3).map((project) => {
+                  return <Project key={project.id} project={project} />;
+                })
+              : projects.map((project) => {
+                  return <Project key={project.id} project={project} />;
+                })}
           </div>
+          {!seeAll ? (
+            <button
+              className="see-all-button  btn btn-outline"
+              onClick={() => setSeeAll(!seeAll)}
+            >
+             See All
+              <i class="fa-solid fa-angle-down"></i>
+            </button>
+          ) : (
+            <button
+              className="see-all-button btn btn-outline"
+              onClick={() => setSeeAll(!seeAll)}
+            >
+              See Less
+              <i class="fa-solid fa-angle-down see-less"></i>
+            </button>
+          )}
         </div>
       </div>
       <div className="references-section conatiner">
