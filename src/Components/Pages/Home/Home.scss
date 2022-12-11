@@ -15,7 +15,7 @@
     border-radius: 50%;
     position: relative;
   }
-/*
+  /*
   .profile-image-container::before {
     content: "";
     width: 100%;
@@ -35,7 +35,6 @@
     object-fit: cover;
     border-radius: 50%;
     position: relative;
-
   }
 
   .welcome-text-container {
@@ -43,19 +42,18 @@
     min-height: 450px;
     margin: 2rem 2rem 2rem 2rem;
 
-    @media screen and (max-width: 768px){
+    @media screen and (max-width: 768px) {
       text-align: center;
 
-      h1{
+      h1 {
         font-size: 40px;
       }
     }
 
     h1 {
-      color: #5E5E5E;
+      color: #5e5e5e;
       margin-bottom: 30px;
       letter-spacing: 5px;
-
     }
   }
 
@@ -77,22 +75,22 @@
     color: #1abc9c;
   }
 
-  @media screen and (max-width: 768px){
-    padding-top:20px;
+  @media screen and (max-width: 768px) {
+    padding-top: 20px;
   }
 }
 
-.project-section-overall-container{
-  background-color: #F8F8F8;
+.project-section-overall-container {
+  background-color: #f8f8f8;
 }
 
 .projects-section {
   padding: 5rem 1rem;
-  background: #F8F8F8;//#F5F5F8;
+  background: #f8f8f8; //#F5F5F8;
   text-align: center;
 
-  h2{
-    color:#5E5E5E;
+  h2 {
+    color: #5e5e5e;
   }
 
   .projects-container {
@@ -105,12 +103,11 @@
   }
 
   .see-all-button {
-    margin:0 auto;
+    margin: 0 auto;
     letter-spacing: 5px;
-
   }
 
-  .see-less{
+  .see-less {
     transform: rotate(180deg);
   }
 }
@@ -118,8 +115,8 @@
 .references-section {
   margin-top: 50px;
 
-  h2{
-    color:#5E5E5E;
+  h2 {
+    color: #5e5e5e;
   }
 
   .recommendations-container {

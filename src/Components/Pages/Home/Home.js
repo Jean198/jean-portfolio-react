@@ -3,13 +3,9 @@ import projects from "../../../Assets/ProjectsData.json";
 import { Project } from "../../Project/Project";
 import Recommendations from "../../Recommendations/Recommendations";
 import ContactForm from "../../ContactForm/ContactForm";
-import Footer from "../../Footer/Footer";
-import { BrowserRouter, Link } from "react-router-dom";
+import {Link } from "react-router-dom";
 import jeanPhoto from "../../../Assets/images/jean-profile.png";
 import { useState } from "react";
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-
-
 
 function Home() {
   const [seeAll, setSeeAll] = useState(false);
@@ -73,13 +69,16 @@ function Home() {
               className="see-all-button  btn btn-outline"
               onClick={() => setSeeAll(!seeAll)}
             >
-             See All
+              See All
               <i class="fa-solid fa-angle-down"></i>
             </button>
           ) : (
             <button
               className="see-all-button btn btn-outline"
-              onClick={() => setSeeAll(!seeAll)}
+              onClick={() =>{
+                setSeeAll(!seeAll)
+                window.location.replace("/#projects")
+              } }
             >
               See Less
               <i class="fa-solid fa-angle-down see-less"></i>

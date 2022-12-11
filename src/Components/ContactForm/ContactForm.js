@@ -35,51 +35,65 @@ export default function ContactForm() {
   }, 5000);
   return (
     <div className="overall-form-container">
-      <div className="form-container container" id="contact-me">
-      <div className="title">
-        <h2>Contact Me</h2>
-        <div className="title-underline"></div>
+      <div className="form-container container row" id="contact-me">
+        <div className="title">
+          <h2>Contact Me</h2>
+          <div className="title-underline"></div>
+        </div>
+        <div className="email-part col-lg-4">
+          <h3>Email</h3>
+
+          <p>jeandedieu.niyigaba@gmail.com</p>
+
+          <h3>Phone</h3>
+          <p>+358449717294</p>
+        </div>
+        <div className="form-part col-lg-8">
+          <form
+            action=""
+            className="contact-form form-group"
+            method="POST"
+            onSubmit={sendEmail}
+          >
+            <label htmlFor="name">Name</label>
+            <br />
+            <input
+              type="text"
+              name="name"
+              placeholder="Your name"
+              className="input form-control"
+              required
+            />{" "}
+            <br />
+            <br />
+            <label htmlFor="email">Email</label>
+            <br />
+            <input
+              type="email"
+              name="email"
+              placeholder="Your email"
+              className="input form-control"
+              required
+            />{" "}
+            <br /> <br />
+            <label htmlFor="message">Message</label> <br />
+            <textarea
+              name="message"
+              id=""
+              rows="10"
+              className="message form-control"
+              required
+            ></textarea>{" "}
+            <br />
+            <input
+              type="submit"
+              value="Send"
+              className="submit btn btn-success-light"
+            />
+            <div className="row">{result ? <Result /> : null}</div>
+          </form>
+        </div>
       </div>
-      <form
-        action=""
-        className="contact-form form-group"
-        method="POST"
-        onSubmit={sendEmail}
-      >
-        <label htmlFor="name">Name</label>
-        <br />
-        <input
-          type="text"
-          name="name"
-          placeholder="Your name"
-          className="input form-control"
-          required
-        />{" "}
-        <br />
-        <br />
-        <label htmlFor="email">Email</label>
-        <br />
-        <input
-          type="email"
-          name="email"
-          placeholder="Your email"
-          className="input form-control"
-          required
-        />{" "}
-        <br /> <br />
-        <label htmlFor="message">Message</label> <br />
-        <textarea
-          name="message"
-          id=""
-          rows="10"
-          className="message form-control"
-          required
-        ></textarea>{" "}
-        <br />
-        <input type="submit" value="Send" className="submit btn btn-success-light" />
-        <div className="row">{result ? <Result /> : null}</div>
-      </form>
-    </div>
     </div>
   );
 }

@@ -18,21 +18,20 @@
 
 .overall-form-container {
   background-color: #f8f8f8;
-  h2{
-    color:#5E5E5E;
+  h2 {
+    color: #5e5e5e;
   }
 }
 .form-container {
-  padding: 30px 0;
+  padding: 30px ;
   margin-top: 100px;
   background-color: #f8f8f8;
+  margin: 0 auto!important;
 }
 
 .contact-form {
-  /*border: solid 1px #2FFFE5;*/
   margin: 0 auto;
   margin-top: 10px;
-  width: 70%;
   padding: 1em;
   border-radius: 3px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -42,9 +41,11 @@
   }
 }
 
-
-
-.btn{
-  background-color: #1ABC9C !important;
+.btn {
+  background-color: #1abc9c !important;
   color: #fff !important;
+}
+
+.email-part{
+ padding-left: 10% !important;
 }

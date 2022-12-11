@@ -1,119 +1,125 @@
-.navbar-overall-container{
-background-color: #F8F8F8;
+.navbar-overall-container {
+  background-color: #f8f8f8;
 
-.navigation-bar {
-  height: 70px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #F8F8F8;
+  .navigation-bar {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f8f8;
 
-  @media screen and (max-width: 800px) {
+    @media screen and (max-width: 800px) {
+      width: 100%;
+    }
+
+    .logo-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: auto;
+      width: auto;
+      margin-left: 10px;
+      @media screen and (max-width: 800px) {
+        text-align: left;
+      }
+
+      .logo {
+        font-size: 30px;
+        color: #5e5e5e;
+        letter-spacing: 8px;
+        line-height: 1.428;
+      }
+    }
+
+    .nav-toggle {
+      font-size: 1.5rem;
+      color: #5e5e5e;
+      background: transparent;
+      border-color: transparent;
+      transition: all 0.3s linear;
+      cursor: pointer;
+
+      @media screen and (min-width: 800px) {
+        display: none;
+      }
+    }
+
+    .nav-toggle:hover {
+      color: black;
+      //transform: rotate(90deg);
+    }
+
+    .nav-links-container {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+
+      .nav-link {
+        padding: 10px 15px;
+        cursor: pointer;
+        font-size: 15px;
+        transition: 0.3s;
+        letter-spacing: 5px;
+        color: #5e5e5e !important;
+      }
+
+      .nav-link:hover {
+        color: #1abc9c !important;
+      }
+
+      @media screen and (max-width: 800px) {
+        display: none;
+      }
+
+      .nav-contact-button {
+        border: none;
+        background: none;
+      }
+    }
+  }
+
+  .mobile-nav-links-container {
     width: 100%;
-  }
-
-  .logo-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: none;
     height: auto;
-    width: auto;
-    margin-left: 10px;
-    @media screen and (max-width: 800px){
-     text-align: left;
-
-    }
-
-    .logo {
-      font-size: 30px;
-      color: #5E5E5E;
-      letter-spacing: 8px;
-      line-height: 1.428;
-
-    }
-  }
-
-  .nav-toggle {
-    font-size: 1.5rem;
-    color: #5E5E5E;
-    background: transparent;
-    border-color: transparent;
-    transition: all 0.3s linear;
-    cursor: pointer;
-
-    @media screen and (min-width: 800px) {
-      display: none;
-    }
-  }
-
-  .nav-toggle:hover {
-    color: black;
-    //transform: rotate(90deg);
-  }
-
-  .nav-links-container {
-    height: 100%;
-    display: flex;
+    line-height: 1;
+    overflow: hidden;
+    flex-direction: column;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
+    opacity: 9;
+    transition: all 500ms ease-out;
 
     .nav-link {
+      width: 100%;
+      text-align: center;
       padding: 10px 15px;
       cursor: pointer;
-      font-size: 15px;
+      font-size: 20px;
       transition: 0.3s;
-      letter-spacing: 5PX;
-      color:#5E5E5E !important;
+
+      @media screen and (max-width: 800px) {
+        width: 100%;
+      }
     }
 
     .nav-link:hover {
-      color: #1abc9c !important
-
-
+      background: #5e5e5e;
+      color: #fff;
+      padding-left: 1.5rem;
     }
 
     @media screen and (max-width: 800px) {
-      display: none;
+      display: flex;
     }
   }
 }
 
-.mobile-nav-links-container {
-  width: 100%;
-  display: none;
-  height: auto;
-  line-height: 1;
-  overflow: hidden;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  opacity: 9;
-  transition: all 500ms ease-out;
+@media screen and (max-width: 800px) {
+  .nav-contact-button{
+    color: red;
+  font-size: 20px !important;
 
-  .nav-link {
-    width: 100%;
-    text-align: center;
-    padding: 10px 15px;
-    cursor: pointer;
-    font-size: 20px;
-    transition: 0.3s;
-
-    @media screen and (max-width: 800px) {
-      width:100%;
-    }
-
-  }
-
-  .nav-link:hover {
-    background: #5E5E5E;
-    color: #fff;
-    padding-left: 1.5rem;
-  }
-
-  @media screen and (max-width: 800px) {
-    display: flex;
   }
 }
-}
-
-

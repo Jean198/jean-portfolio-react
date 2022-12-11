@@ -1,7 +1,7 @@
-import { FaGithub, FaLinkedin, FaGitlab } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { Fragment } from "react";
 import "./Footer.scss";
-import { Outlet, Link } from "react-router-dom";
+import { Outlet} from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -16,13 +16,11 @@ export default function Footer() {
         </div>
         <div className="footer-elem col-lg-4">
           <p>
-            <a href="" className="footer-icons">
+            <a href="https://github.com/Jean198?tab=repositories" className="footer-icons" target="blank">
               <FaGithub className="text-2xl" />{" "}
             </a>
-            <a href="" className="footer-icons">
-              <FaGitlab className="text-2xl" />{" "}
-            </a>
-            <a href="" className="footer-icons">
+
+            <a href="https://www.linkedin.com/in/jean-de-dieu-niyigaba-235587168/" className="footer-icons" target="blank">
               {" "}
               <FaLinkedin className="text-2xl" />
             </a>
