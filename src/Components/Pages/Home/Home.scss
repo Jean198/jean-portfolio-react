@@ -81,12 +81,13 @@
 }
 
 .project-section-overall-container {
-  background-color: #1ABC9C;
+  background: linear-gradient(#1ABC9C, #fff);
 }
 
 .projects-section {
   padding: 5rem 1rem;
-  background: #1ABC9C; //#F5F5F8;
+  background: linear-gradient(#1ABC9C, #fff);
+  //background: #1ABC9C; //#F5F5F8;
   text-align: center;
 
   h2 {
