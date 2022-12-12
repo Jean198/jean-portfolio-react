@@ -1,9 +1,9 @@
-import { React, useState, useEffect } from "react";
+import { React, useState} from "react";
 import { Fragment } from "react";
 import { Outlet, Link } from "react-router-dom";
 import "./NavigationBar.scss";
 import { FaBars } from "react-icons/fa";
-import Cv from "../../Assets/documents/Jean-CV.pdf";
+import Cv from "../../Assets/documents/Jean-Cv.pdf";
 
 const NavigationBar = () => {
   const [showLinks, setShowLinks] = useState(false);

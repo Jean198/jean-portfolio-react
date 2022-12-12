@@ -1,6 +1,15 @@
 [
   {
     "id": 1,
+    "title": "finnmarket website",
+    "imageUrl": "/images/finnmarket.png",
+    "summary": "I have helped www.finnmarket.fi owner to build a website for his business. The site is built on shopify by customizing one of shopify themes. I am also regularly providing support services to him whenever he needs changes on his website for example integrating different apps, editing website layouts, adding new product collections...",
+    "GitHub": "#!",
+    "projectUrl": "https://www.finnmarket.fi/"
+  },
+
+  {
+    "id": 2,
     "title": "Softrain project",
     "imageUrl": "/images/softrain.png",
     "summary": "While working as trainee software developer at Softrain Blobs Oy, my main task was to rewrite the Logitar software using React and Node js.For this task, my tools choice were Next js as react framework and tailwind css for styling. ",
@@ -8,7 +17,7 @@
     "projectUrl": "https://www.softrain.fi/tuotteet/"
   },
   {
-    "id": 2,
+    "id": 3,
     "title": "Rock-Scissors-Paper game ",
     "imageUrl": "/images/rock-scissors-paper.png",
     "summary": "I built this app in attempt to solve a challenge that came with an internship position offer. I hope you enjoy this!.",
@@ -16,7 +25,7 @@
     "projectUrl": "https://jean-kivi-paperi-sakset.herokuapp.com/"
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "Personal Diary ",
     "imageUrl": "/images/journal1.png",
     "summary": "I build this app as course's final project while studying at JAMK. This is an app someone can use as a personal journal to take notes.",
@@ -24,7 +33,7 @@
     "projectUrl": "https://jeans-journal.herokuapp.com/"
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "Crypto-currency tracker ",
     "imageUrl": "/images/crypt.png",
     "summary": "This app built with Next Js gives current overall information about crypto-currency values on the market.",
@@ -32,7 +41,7 @@
     "projectUrl": "https://crypto-currency-tracker-tau.vercel.app/"
   },
   {
-    "id": 5,
+    "id": 6,
     "title": "Iphone-Stopwatch",
     "imageUrl": "/images/iphone-stopwatch.png",
     "summary": "My attempt to clone the Iphone Stopwatch !",
@@ -40,7 +49,7 @@
     "projectUrl": "https://rad-daffodil-3adb39.netlify.app/"
   },
   {
-    "id": 6,
+    "id": 7,
     "title": "Currency Converter ",
     "imageUrl": "/images/currency.png",
     "summary": "This is another application I built for my own learning. Since I am using a free API, The application has only one base currency and multiple target currencies.",
@@ -49,7 +58,7 @@
   },
 
   {
-    "id": 7,
+    "id": 8,
     "title": "Countries info ",
     "imageUrl": "/images/countries.png",
     "summary": "You get basic information about all the countries in the world from this app!",
@@ -58,7 +67,7 @@
   },
 
   {
-    "id": 8,
+    "id": 9,
     "title": "Memory-Game ",
     "imageUrl": "/images/memory-game.png",
     "summary": "Simple memory game build with React. Hope you enjoy it!",
@@ -67,7 +76,7 @@
   },
 
   {
-    "id": 9,
+    "id": 10,
     "title": "Todo App ",
     "imageUrl": "/images/todoApp.png",
     "summary": "Simple todo App build with expressjs and EJS!",
