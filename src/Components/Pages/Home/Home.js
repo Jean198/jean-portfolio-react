@@ -86,7 +86,7 @@ function Home() {
           )}
         </div>
       </div>
-      <div className="references-section conatiner">
+      <div className="references-section container">
         <div className="title">
           <h2>References</h2>
         </div>

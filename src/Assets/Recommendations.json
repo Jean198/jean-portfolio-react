@@ -20,5 +20,13 @@
       "position":" Lehtori, Senior Lecturer at JAMK",
       "email":"matti.mieskolainen@jamk.fi",
       "letterName":null
+    },
+
+    {
+      "id":4,
+      "name":"Tuomas Jakonen ",
+      "position":"Front-End Developer at MEOM Oy ",
+      "email":"tume91@gmail.com",
+      "letterName":null
     }
 ]
