@@ -3,7 +3,7 @@ import { Fragment } from "react";
 import { Outlet, Link } from "react-router-dom";
 import "./NavigationBar.scss";
 import { FaBars } from "react-icons/fa";
-import Cv from "../../Assets/documents/Jean-Cv.pdf";
+import Cv from "../../Assets/documents/Jean-CV.pdf";
 
 const NavigationBar = () => {
   const [showLinks, setShowLinks] = useState(false);
