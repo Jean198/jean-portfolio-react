@@ -16,14 +16,16 @@
     "GitHub": "#!",
     "projectUrl": "https://www.softrain.fi/tuotteet/"
   },
+
   {
     "id": 3,
-    "title": "Rock-Scissors-Paper game ",
-    "imageUrl": "/images/rock-scissors-paper.png",
-    "summary": "I built this app in attempt to solve a challenge that came with an internship position offer. I hope you enjoy this!.",
-    "GitHub": "https://github.com/Jean198/rock-scissors-paper",
-    "projectUrl": "https://jean-kivi-paperi-sakset.herokuapp.com/"
+    "title": "Memory-Game ",
+    "imageUrl": "/images/memory-game.png",
+    "summary": "Simple memory game build with React. Hope you enjoy it!",
+    "GitHub": "https://github.com/Jean198/memory-game-react",
+    "projectUrl": "https://resplendent-sprite-cfae70.netlify.app/"
   },
+
   {
     "id": 4,
     "title": "Personal Diary ",
@@ -65,14 +67,13 @@
     "GitHub": "https://github.com/Jean198/fullst4ck0pen-2022/tree/main/part2/countries",
     "projectUrl": "https://main--effulgent-custard-b56e7e.netlify.app/"
   },
-
   {
     "id": 9,
-    "title": "Memory-Game ",
-    "imageUrl": "/images/memory-game.png",
-    "summary": "Simple memory game build with React. Hope you enjoy it!",
-    "GitHub": "https://github.com/Jean198/memory-game-react",
-    "projectUrl": "https://resplendent-sprite-cfae70.netlify.app/"
+    "title": "Rock-Scissors-Paper game ",
+    "imageUrl": "/images/rock-scissors-paper.png",
+    "summary": "I built this app in attempt to solve a challenge that came with an internship position offer. I hope you enjoy this!.",
+    "GitHub": "https://github.com/Jean198/rock-scissors-paper",
+    "projectUrl": "https://jean-kivi-paperi-sakset.herokuapp.com/"
   },
 
   {
