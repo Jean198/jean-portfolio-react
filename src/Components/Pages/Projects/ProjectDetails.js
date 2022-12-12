@@ -16,7 +16,7 @@ const ProjectDetails = () => {
               <div className="detailed-project-summary">
                 <h5>{project.title}</h5>
                 <p>{project.summary}</p>
-                {project.id === 1 ? (
+                {project.id === 1 || project.id === 2 ? (
                   ""
                 ) : (
                   <a
