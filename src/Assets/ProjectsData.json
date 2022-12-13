@@ -26,14 +26,7 @@
     "projectUrl": "https://resplendent-sprite-cfae70.netlify.app/"
   },
 
-  {
-    "id": 4,
-    "title": "Personal Diary ",
-    "imageUrl": "/images/journal1.png",
-    "summary": "I build this app as course's final project while studying at JAMK. This is an app someone can use as a personal journal to take notes.",
-    "GitHub": "https://github.com/Jean198/Jeans-journal",
-    "projectUrl": "https://jeans-journal.herokuapp.com/"
-  },
+
   {
     "id": 5,
     "title": "Crypto-currency tracker ",
@@ -50,14 +43,7 @@
     "GitHub": "https://github.com/Jean198/iphone-Stopwatch-React",
     "projectUrl": "https://rad-daffodil-3adb39.netlify.app/"
   },
-  {
-    "id": 7,
-    "title": "Currency Converter ",
-    "imageUrl": "/images/currency.png",
-    "summary": "This is another application I built for my own learning. Since I am using a free API, The application has only one base currency and multiple target currencies.",
-    "GitHub": "https://github.com/Jean198/currency-converter",
-    "projectUrl": "https://jn-currency-converter.herokuapp.com/"
-  },
+
 
   {
     "id": 8,
@@ -67,14 +53,8 @@
     "GitHub": "https://github.com/Jean198/fullst4ck0pen-2022/tree/main/part2/countries",
     "projectUrl": "https://main--effulgent-custard-b56e7e.netlify.app/"
   },
-  {
-    "id": 9,
-    "title": "Rock-Scissors-Paper game ",
-    "imageUrl": "/images/rock-scissors-paper.png",
-    "summary": "I built this app in attempt to solve a challenge that came with an internship position offer. I hope you enjoy this!.",
-    "GitHub": "https://github.com/Jean198/rock-scissors-paper",
-    "projectUrl": "https://jean-kivi-paperi-sakset.herokuapp.com/"
-  },
+
+
 
   {
     "id": 10,
