@@ -62,6 +62,6 @@
     "imageUrl": "/images/todoApp.png",
     "summary": "Simple todo App build with expressjs and EJS!",
     "GitHub": "https://github.com/Jean198/todoApp-expressjs-ejs",
-    "projectUrl": "https://todo-app-expressjs-ejs.herokuapp.com/"
+    "projectUrl": "https://jeantodoapp2.onrender.com/"
   }
 ]
