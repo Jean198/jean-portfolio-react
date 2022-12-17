@@ -16,14 +16,40 @@ const ProjectDetails = () => {
               <div className="detailed-project-summary">
                 <h5>{project.title}</h5>
                 <p>{project.summary}</p>
-                {project.id === 1 || project.id === 2 ? (
+                {project.GitHub_fullstack===null? (
                   ""
                 ) : (
                   <a
-                    href={project.GitHub}
+                    href={project.GitHub_fullstack}
                     className="custom-btn github-link-btn link"
+                    target="blank"
                   >
-                    GitHub Link <FaGithub className="GitHub" />
+                    GitHub-fullstack <FaGithub className="GitHub" />
+                  </a>
+                )}
+
+               {project.GitHub_frontend===null?(
+                  ""
+                ) : (
+                  <a
+                    href={project.GitHub_frontend}
+                    className="custom-btn github-link-btn link"
+                    target="blank"
+                  >
+                    GitHub-frontend <FaGithub className="GitHub" />
+                  </a>
+                )}
+                <br />
+                <br />
+                {project.GitHub_backend===null?(
+                  ""
+                ) : (
+                  <a
+                    href={project.GitHub_backend}
+                    className="github-backend-link github-link-btn link"
+                    target="blank"
+                  >
+                    GitHub-backend <FaGithub className="GitHub" />
                   </a>
                 )}
                 <br /> <br />
