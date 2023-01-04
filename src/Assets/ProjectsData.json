@@ -12,7 +12,7 @@
 
   {
     "id": 2,
-    "title": "Softrain project",
+    "title": "Internship task at Softrain Blobs Oy",
     "imageUrl": "/images/softrain.png",
     "summary": "While working as trainee software developer at Softrain Blobs Oy, my main task was to rewrite the Logitar software using React and Node js.For this task, my tools choice were Next js as react framework and tailwind css for styling. ",
     "GitHub_frontend":null,
@@ -20,9 +20,19 @@
     "GitHub_fullstack": null,
     "projectUrl": "https://www.softrain.fi/tuotteet/"
   },
-
   {
     "id": 3,
+    "title": "Birdnest(Internship preassignment) ",
+    "imageUrl": "/images/birdnest.png",
+    "summary": "My attempt to solve the internship preassignment. The task description is found at https://assignments.reaktor.com/birdnest/ ",
+    "GitHub_frontend":"https://github.com/Jean198/reaktor-assignment-frontend",
+    "GitHub_backend": "https://github.com/Jean198/reaktor-assignment-backend",
+    "GitHub_fullstack":null,
+    "projectUrl": "https://reaktor-birdnest-frontend.onrender.com/"
+  },
+
+  {
+    "id": 4,
     "title": "Task-manager ",
     "imageUrl": "/images/task-manager.png",
     "summary": "Simple task manager App with React, Node and Mongodb.",
@@ -33,7 +43,7 @@
   },
 
   {
-    "id": 4,
+    "id": 5,
     "title": "Memory-Game ",
     "imageUrl": "/images/memory-game.png",
     "summary": "Simple memory game build with React. Hope you enjoy it!",
@@ -45,7 +55,7 @@
 
 
   {
-    "id": 5,
+    "id": 6,
     "title": "Crypto-currency tracker ",
     "imageUrl": "/images/crypt.png",
     "summary": "This app built with Next Js gives current overall information about crypto-currency values on the market.",
@@ -55,7 +65,7 @@
     "projectUrl": "https://crypto-currency-tracker-tau.vercel.app/"
   },
   {
-    "id": 6,
+    "id": 7,
     "title": "Iphone-Stopwatch",
     "imageUrl": "/images/iphone-stopwatch.png",
     "summary": "My attempt to clone the Iphone Stopwatch !",
@@ -67,7 +77,7 @@
 
 
   {
-    "id": 7,
+    "id": 8,
     "title": "Countries info ",
     "imageUrl": "/images/countries.png",
     "summary": "You get basic information about all the countries in the world from this app!",
@@ -80,7 +90,7 @@
 
 
   {
-    "id": 8,
+    "id": 9,
     "title": "Todo App ",
     "imageUrl": "/images/todoApp.png",
     "summary": "Simple todo App build with expressjs and EJS!",
