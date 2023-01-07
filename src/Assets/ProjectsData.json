@@ -12,17 +12,18 @@
 
   {
     "id": 2,
-    "title": "Internship task at Softrain Blobs Oy",
-    "imageUrl": "/images/softrain.png",
-    "summary": "While working as trainee software developer at Softrain Blobs Oy, my main task was to rewrite the Logitar software using React and Node js.For this task, my tools choice were Next js as react framework and tailwind css for styling. ",
-    "GitHub_frontend":null,
-    "GitHub_backend":null,
-    "GitHub_fullstack": null,
-    "projectUrl": "https://www.softrain.fi/tuotteet/"
+    "title": "Helsinki City Bikes(Internship pre-assignment 2023) ",
+    "imageUrl": "/images/helsinki-bikes.png",
+    "summary": "My attempt to solve the internship preassignment. The task description is found at https://github.com/solita/dev-academy-2023-exercise ",
+    "GitHub_frontend":"https://github.com/Jean198/solita-frontend",
+    "GitHub_backend": "https://github.com/Jean198/solita-backend",
+    "GitHub_fullstack":null,
+    "projectUrl": "https://helsinki-city-bikes.netlify.app/"
   },
+
   {
     "id": 3,
-    "title": "Birdnest(Internship preassignment) ",
+    "title": "Birdnest(Internship pre-assignment 2023) ",
     "imageUrl": "/images/birdnest.png",
     "summary": "My attempt to solve the internship preassignment. The task description is found at https://assignments.reaktor.com/birdnest/ ",
     "GitHub_frontend":"https://github.com/Jean198/reaktor-assignment-frontend",
@@ -33,6 +34,15 @@
 
   {
     "id": 4,
+    "title": "Internship task at Softrain Blobs Oy",
+    "imageUrl": "/images/softrain.png",
+    "summary": "While working as trainee software developer at Softrain Blobs Oy, my main task was to rewrite the Logitar software using React and Node js.For this task, my tools choice were Next js as react framework and tailwind css for styling. ",
+    "project_info":"https://www.softrain.fi/en/tuotteet/"
+  },
+
+
+  {
+    "id": 5,
     "title": "Task-manager ",
     "imageUrl": "/images/task-manager.png",
     "summary": "Simple task manager App with React, Node and Mongodb.",
@@ -43,7 +53,7 @@
   },
 
   {
-    "id": 5,
+    "id": 6,
     "title": "Memory-Game ",
     "imageUrl": "/images/memory-game.png",
     "summary": "Simple memory game build with React. Hope you enjoy it!",
@@ -55,7 +65,7 @@
 
 
   {
-    "id": 6,
+    "id": 7,
     "title": "Crypto-currency tracker ",
     "imageUrl": "/images/crypt.png",
     "summary": "This app built with Next Js gives current overall information about crypto-currency values on the market.",
@@ -65,7 +75,7 @@
     "projectUrl": "https://crypto-currency-tracker-tau.vercel.app/"
   },
   {
-    "id": 7,
+    "id": 8,
     "title": "Iphone-Stopwatch",
     "imageUrl": "/images/iphone-stopwatch.png",
     "summary": "My attempt to clone the Iphone Stopwatch !",
@@ -77,7 +87,7 @@
 
 
   {
-    "id": 8,
+    "id": 9,
     "title": "Countries info ",
     "imageUrl": "/images/countries.png",
     "summary": "You get basic information about all the countries in the world from this app!",
@@ -90,7 +100,7 @@
 
 
   {
-    "id": 9,
+    "id": 10,
     "title": "Todo App ",
     "imageUrl": "/images/todoApp.png",
     "summary": "Simple todo App build with expressjs and EJS!",

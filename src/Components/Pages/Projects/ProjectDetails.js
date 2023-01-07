@@ -16,9 +16,7 @@ const ProjectDetails = () => {
               <div className="detailed-project-summary">
                 <h5>{project.title}</h5>
                 <p>{project.summary}</p>
-                {project.GitHub_fullstack===null? (
-                  ""
-                ) : (
+                {project.GitHub_fullstack && (
                   <a
                     href={project.GitHub_fullstack}
                     className="custom-btn github-link-btn link"
@@ -27,10 +25,7 @@ const ProjectDetails = () => {
                     GitHub-fullstack <FaGithub className="GitHub" />
                   </a>
                 )}
-
-               {project.GitHub_frontend===null?(
-                  ""
-                ) : (
+                {project.GitHub_frontend && (
                   <a
                     href={project.GitHub_frontend}
                     className="custom-btn github-link-btn link"
@@ -41,25 +36,34 @@ const ProjectDetails = () => {
                 )}
                 <br />
                 <br />
-                {project.GitHub_backend===null?(
-                  ""
-                ) : (
+                {project.GitHub_backend && (
                   <a
                     href={project.GitHub_backend}
-                    className="github-backend-link github-link-btn link"
+                    className="github-backend-link custom-btn github-link-btn link"
                     target="blank"
                   >
                     GitHub-backend <FaGithub className="GitHub" />
                   </a>
                 )}
                 <br /> <br />
-                <a
-                  href={project.projectUrl}
-                  className="custom-btn project-link-btn link"
-                  target="blank"
-                >
-                  Project Link
-                </a>
+                {project.projectUrl && (
+                  <a
+                    href={project.projectUrl}
+                    className="custom-btn project-link-btn link"
+                    target="blank"
+                  >
+                    See the application live!
+                  </a>
+                )}
+                {project.project_info && (
+                  <a
+                    href={project.projectUrl}
+                    className="custom-btn project-link-btn link"
+                    target="blank"
+                  >
+                    Readmore about Logitar software
+                  </a>
+                )}
               </div>
             </div>
           );
