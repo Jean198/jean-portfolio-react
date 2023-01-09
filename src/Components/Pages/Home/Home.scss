@@ -59,8 +59,8 @@
 
   .home-btn {
     display: inline-block;
-    background-color: #1abc9c;
-    border: 2px solid #1abc9c;
+    background-color: #004249;
+    border: 2px solid #004249;
     color: #fff;
     font-weight: 500;
     text-transform: uppercase;
@@ -72,7 +72,7 @@
   .home-btn:hover {
     background: transparent;
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
-    color: #1abc9c;
+    color: #004249;
   }
 
   @media screen and (max-width: 768px) {
@@ -81,13 +81,13 @@
 }
 
 .project-section-overall-container {
-  background: linear-gradient(#1ABC9C, #fff);
+  background: linear-gradient(#004249, #fff);
 }
 
 .projects-section {
   padding: 5rem 1rem;
-  background: linear-gradient(#1ABC9C, #fff);
-  //background: #1ABC9C; //#F5F5F8;
+  background: linear-gradient(#004249, #fff);
+  //background: #004249; //#F5F5F8;
   text-align: center;
 
   h2 {

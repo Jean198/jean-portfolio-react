@@ -52,7 +52,7 @@ function Home() {
       <div className="project-section-overall-container">
         <div className="projects-section container" id="projects">
           <div className="title">
-            <h2>My Portfolio</h2>
+            <h2 className="text-white">My Portfolio</h2>
             <div className="title-underline"></div>
           </div>
           <div className="projects-container">
