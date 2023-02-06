@@ -1,11 +1,12 @@
-import "./Home.scss";
-import projects from "../../../Assets/ProjectsData.json";
-import { Project } from "../../Project/Project";
-import Recommendations from "../../Recommendations/Recommendations";
-import ContactForm from "../../ContactForm/ContactForm";
-import {Link } from "react-router-dom";
-import jeanPhoto from "../../../Assets/images/jean-profile.png";
-import { useState } from "react";
+import './Home.scss';
+import projects from '../../../Assets/ProjectsData.json';
+import { Project } from '../../Project/Project';
+import Recommendations from '../../Recommendations/Recommendations';
+import ContactForm from '../../ContactForm/ContactForm';
+import { Link } from 'react-router-dom';
+import jeanPhoto from '../../../Assets/images/jean-profile.png';
+import { useState } from 'react';
+import Skills from '../../skills/Skills';
 
 function Home() {
   const [seeAll, setSeeAll] = useState(false);
@@ -17,12 +18,12 @@ function Home() {
           might not work as expected!
         </p>
       </div>*/}
-      <div className="welcome-section-container container ">
-        <div className="profile-image-container">
+      <div className='welcome-section-container container '>
+        <div className='profile-image-container'>
           <img src={jeanPhoto} />
         </div>
-        <div className="welcome-text-container">
-          <h1 className="name">I'm Jean Niyigaba,</h1>
+        <div className='welcome-text-container'>
+          <h1 className='name'>I'm Jean Niyigaba,</h1>
           <p>
             Welcome to my portfolio site! <br />
             <br /> I have a master’s degree in computational engineering and my
@@ -34,28 +35,28 @@ function Home() {
             and improve my skills.
           </p>
           <Link
-            to="/about"
-            rel="noreferrer"
-            className=" custom-btn home-btn link"
+            to='/about'
+            rel='noreferrer'
+            className=' custom-btn home-btn link'
           >
             Read more about me
-          </Link>{" "}
+          </Link>{' '}
           <br />
           <a
-            className="custom-btn projects-btn link"
-            onClick={() => window.location.replace("/#projects")}
+            className='custom-btn projects-btn link'
+            onClick={() => window.location.replace('/#projects')}
           >
             CHECK OUT MY PROJECTS
           </a>
         </div>
       </div>
-      <div className="project-section-overall-container">
-        <div className="projects-section container" id="projects">
-          <div className="title">
-            <h2 className="text-white">My Portfolio</h2>
-            <div className="title-underline"></div>
+      <div className='project-section-overall-container'>
+        <div className='projects-section container' id='projects'>
+          <div className='title'>
+            <h2 className='text-white'>My Portfolio</h2>
+            <div className='title-underline'></div>
           </div>
-          <div className="projects-container">
+          <div className='projects-container'>
             {!seeAll
               ? projects.slice(0, 3).map((project) => {
                   return <Project key={project.id} project={project} />;
@@ -66,32 +67,33 @@ function Home() {
           </div>
           {!seeAll ? (
             <button
-              className="see-all-button  btn btn-outline"
+              className='see-all-button  btn btn-outline'
               onClick={() => setSeeAll(!seeAll)}
             >
               See All
-              <i class="fa-solid fa-angle-down"></i>
+              <i class='fa-solid fa-angle-down'></i>
             </button>
           ) : (
             <button
-              className="see-all-button btn btn-outline"
-              onClick={() =>{
-                setSeeAll(!seeAll)
-                window.location.replace("/#projects")
-              } }
+              className='see-all-button btn btn-outline'
+              onClick={() => {
+                setSeeAll(!seeAll);
+                window.location.replace('/#projects');
+              }}
             >
               See Less
-              <i class="fa-solid fa-angle-down see-less"></i>
+              <i class='fa-solid fa-angle-down see-less'></i>
             </button>
           )}
         </div>
       </div>
-      <div className="references-section container">
-        <div className="title">
+
+      <div className='references-section container'>
+        <div className='title'>
           <h2>References</h2>
         </div>
-        <div className="title-underline"></div>
-        <div className="recommendations-container container">
+        <div className='title-underline'></div>
+        <div className='recommendations-container container'>
           <Recommendations />
         </div>
       </div>
