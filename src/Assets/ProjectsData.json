@@ -1,111 +1,116 @@
 [
   {
     "id": 1,
+    "title": "Warehouse Management System",
+    "imageUrl": "/images/wms.png",
+    "summary": "Lorem",
+    "GitHub_frontend": "https://github.com/Jean198/inventory-management-frontend",
+    "GitHub_backend": "https://github.com/Jean198/inventory-management-backend/tree/dev/backend",
+    "GitHub_fullstack": null,
+    "projectUrl": "https://wms-app-coral.vercel.app/"
+  },
+  {
+    "id": 2,
     "title": "finnmarket website",
     "imageUrl": "/images/finnmarket.png",
     "summary": "I have helped www.finnmarket.fi owner to build a website for his business. The site is built on shopify by customizing one of shopify themes. I am also regularly providing support services to him whenever he needs changes on his website for example integrating different apps, editing website layouts, adding new product collections...",
-    "GitHub_frontend":null,
-    "GitHub_backend":null,
+    "GitHub_frontend": null,
+    "GitHub_backend": null,
     "GitHub_fullstack": null,
     "projectUrl": "https://www.finnmarket.fi/"
   },
 
   {
-    "id": 2,
+    "id": 3,
     "title": "Helsinki City Bikes(Internship pre-assignment 2023) ",
     "imageUrl": "/images/helsinki-bikes.png",
     "summary": "My attempt to solve the internship preassignment. The task description is found at https://github.com/solita/dev-academy-2023-exercise ",
-    "GitHub_frontend":"https://github.com/Jean198/solita-frontend",
+    "GitHub_frontend": "https://github.com/Jean198/solita-frontend",
     "GitHub_backend": "https://github.com/Jean198/solita-backend",
-    "GitHub_fullstack":null,
+    "GitHub_fullstack": null,
     "projectUrl": "https://helsinki-city-bikes.netlify.app/"
   },
 
   {
-    "id": 3,
+    "id": 4,
     "title": "Birdnest(Internship pre-assignment 2023) ",
     "imageUrl": "/images/birdnest.png",
     "summary": "My attempt to solve the internship preassignment. The task description is found at https://assignments.reaktor.com/birdnest/ ",
-    "GitHub_frontend":"https://github.com/Jean198/reaktor-assignment-frontend",
+    "GitHub_frontend": "https://github.com/Jean198/reaktor-assignment-frontend",
     "GitHub_backend": "https://github.com/Jean198/reaktor-assignment-backend",
-    "GitHub_fullstack":null,
+    "GitHub_fullstack": null,
     "projectUrl": "https://reaktor-birdnest-frontend.onrender.com/"
   },
 
   {
-    "id": 4,
+    "id": 5,
     "title": "Internship task at Softrain Blobs Oy",
     "imageUrl": "/images/softrain.png",
     "summary": "While working as trainee software developer at Softrain Blobs Oy, my main task was to rewrite the Logitar software using React and Node js.For this task, my tools choice were Next js as react framework and tailwind css for styling. ",
-    "project_info":"https://www.softrain.fi/en/tuotteet/"
-  },
-
-
-  {
-    "id": 5,
-    "title": "Task-manager ",
-    "imageUrl": "/images/task-manager.png",
-    "summary": "Simple task manager App with React, Node and Mongodb.",
-    "GitHub_frontend":"https://github.com/Jean198/task-manager-frontend",
-    "GitHub_backend": "https://github.com/Jean198/task-manager-backend",
-    "GitHub_fullstack":null,
-    "projectUrl": "https://task-manager-frontend.onrender.com"
+    "project_info": "https://www.softrain.fi/en/tuotteet/"
   },
 
   {
     "id": 6,
+    "title": "Task-manager ",
+    "imageUrl": "/images/task-manager.png",
+    "summary": "Simple task manager App with React, Node and Mongodb.",
+    "GitHub_frontend": "https://github.com/Jean198/task-manager-frontend",
+    "GitHub_backend": "https://github.com/Jean198/task-manager-backend",
+    "GitHub_fullstack": null,
+    "projectUrl": "https://task-manager-frontend.onrender.com"
+  },
+
+  {
+    "id": 7,
     "title": "Memory-Game ",
     "imageUrl": "/images/memory-game.png",
     "summary": "Simple memory game build with React. Hope you enjoy it!",
-    "GitHub_frontend":null,
-    "GitHub_backend":null,
+    "GitHub_frontend": null,
+    "GitHub_backend": null,
     "GitHub_fullstack": "https://github.com/Jean198/memory-game-react",
     "projectUrl": "https://resplendent-sprite-cfae70.netlify.app/"
   },
 
-
   {
-    "id": 7,
+    "id": 8,
     "title": "Crypto-currency tracker ",
     "imageUrl": "/images/crypt.png",
     "summary": "This app built with Next Js gives current overall information about crypto-currency values on the market.",
-    "GitHub_frontend":null,
-    "GitHub_backend":null,
+    "GitHub_frontend": null,
+    "GitHub_backend": null,
     "GitHub_fullstack": "https://github.com/Jean198/crypto-currency-tracker",
     "projectUrl": "https://crypto-currency-tracker-tau.vercel.app/"
   },
   {
-    "id": 8,
+    "id": 9,
     "title": "Iphone-Stopwatch",
     "imageUrl": "/images/iphone-stopwatch.png",
     "summary": "My attempt to clone the Iphone Stopwatch !",
-    "GitHub_frontend":null,
-    "GitHub_backend":null,
+    "GitHub_frontend": null,
+    "GitHub_backend": null,
     "GitHub_fullstack": "https://github.com/Jean198/iphone-Stopwatch-React",
     "projectUrl": "https://rad-daffodil-3adb39.netlify.app/"
   },
 
-
   {
-    "id": 9,
+    "id": 10,
     "title": "Countries info ",
     "imageUrl": "/images/countries.png",
     "summary": "You get basic information about all the countries in the world from this app!",
-    "GitHub_frontend":null,
-    "GitHub_backend":null,
+    "GitHub_frontend": null,
+    "GitHub_backend": null,
     "GitHub_fullstack": "https://github.com/Jean198/fullst4ck0pen-2022/tree/main/part2/countries",
     "projectUrl": "https://main--effulgent-custard-b56e7e.netlify.app/"
   },
 
-
-
   {
-    "id": 10,
+    "id": 11,
     "title": "Todo App ",
     "imageUrl": "/images/todoApp.png",
     "summary": "Simple todo App build with expressjs and EJS!",
-    "GitHub_frontend":null,
-    "GitHub_backend":null,
+    "GitHub_frontend": null,
+    "GitHub_backend": null,
     "GitHub_fullstack": "https://github.com/Jean198/todoApp-expressjs-ejs",
     "projectUrl": "https://jeantodoapp2.onrender.com/"
   }
