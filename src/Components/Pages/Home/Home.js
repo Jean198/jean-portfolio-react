@@ -18,7 +18,7 @@ function Home() {
           might not work as expected!
         </p>
       </div>*/}
-      <div className='welcome-section-container container '>
+      <div className='welcome-section-container  '>
         <div className='profile-image-container'>
           <img src={jeanPhoto} />
         </div>

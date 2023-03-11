@@ -1,12 +1,12 @@
 .navbar-overall-container {
-  background-color: #f8f8f8;
+  background-color: #fffaeb;
 
   .navigation-bar {
     height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #f8f8f8;
+    background-color: #fffaeb;
 
     @media screen and (max-width: 800px) {
       width: 100%;
@@ -25,15 +25,17 @@
 
       .logo {
         font-size: 30px;
-        color: #5e5e5e;
+        color: #004249;
+        font-weight: 900;
         letter-spacing: 8px;
         line-height: 1.428;
+        text-shadow: black 1px 0 2px;
       }
     }
 
     .nav-toggle {
       font-size: 1.5rem;
-      color: #5e5e5e;
+      color: #004249;
       background: transparent;
       border-color: transparent;
       transition: all 0.3s linear;
@@ -61,11 +63,11 @@
         font-size: 15px;
         transition: 0.3s;
         letter-spacing: 5px;
-        color: #5e5e5e !important;
+        color: #004249 !important;
       }
 
       .nav-link:hover {
-        color: #004249 !important;
+        color: hsl(42, 78%, 60%) !important;
       }
 
       @media screen and (max-width: 800px) {
@@ -117,9 +119,8 @@
 }
 
 @media screen and (max-width: 800px) {
-  .nav-contact-button{
+  .nav-contact-button {
     color: red;
-  font-size: 20px !important;
-
+    font-size: 20px !important;
   }
 }

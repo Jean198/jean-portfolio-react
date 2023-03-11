@@ -4,16 +4,32 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  background-color: white;
+  background-color: #fffaeb;
 
   .profile-image-container {
-    margin: 2rem 0rem 2rem 0rem;
-    text-align: center;
-    width: 300px;
-    height: auto;
-
-    border-radius: 50%;
+    display: block;
     position: relative;
+  }
+
+  .profile-image-container::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 0.25rem solid hsl(42, 78%, 60%);
+    top: 2rem;
+    right: 2rem;
+    border-radius: 5px;
+  }
+
+  img {
+    max-width: 18rem;
+    max-height: 30rem;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 5px;
+    position: relative;
+    border: solid 0.07rem hsl(42, 78%, 60%);
   }
   /*
   .profile-image-container::before {
@@ -27,7 +43,7 @@
     border-radius: 50%;
   }
   */
-
+  /*
   img {
     width: 100%;
     display: block;
@@ -36,13 +52,15 @@
     border-radius: 50%;
     position: relative;
   }
+  */
 
   .welcome-text-container {
     width: 700px;
     min-height: 450px;
-    margin: 2rem 2rem 2rem 2rem;
+    margin: 2rem 2rem 2rem 8rem;
 
     @media screen and (max-width: 768px) {
+      margin: 2rem 2rem 2rem 2rem;
       text-align: center;
 
       h1 {
@@ -59,8 +77,8 @@
 
   .home-btn {
     display: inline-block;
-    background-color: #004249;
-    border: 2px solid #004249;
+    background-color: #102a42;
+    border: 2px solid #102a42;
     color: #fff;
     font-weight: 500;
     text-transform: uppercase;
@@ -81,17 +99,17 @@
 }
 
 .project-section-overall-container {
-  background: linear-gradient(#004249, #fff);
+  background: #102a42;
 }
 
 .projects-section {
   padding: 5rem 1rem;
-  background: linear-gradient(#004249, #fff);
+  background: #102a42;
   //background: #004249; //#F5F5F8;
   text-align: center;
 
   h2 {
-    color: #022F3A;
+    color: #102a42;
   }
 
   .projects-container {
@@ -118,7 +136,7 @@
   padding-bottom: 5%;
 
   h2 {
-    color: #5e5e5e;
+    color: #102a42;
   }
 
   .recommendations-container {
