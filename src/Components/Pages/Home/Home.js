@@ -4,7 +4,7 @@ import { Project } from '../../Project/Project';
 import Recommendations from '../../Recommendations/Recommendations';
 import ContactForm from '../../ContactForm/ContactForm';
 import { Link } from 'react-router-dom';
-import jeanPhoto from '../../../Assets/images/jean-profile.png';
+import jeanPhoto from '../../../Assets/images/jean-profile1.png';
 import { useState } from 'react';
 import Skills from '../../skills/Skills';
 
@@ -53,7 +53,7 @@ function Home() {
       <div className='project-section-overall-container'>
         <div className='projects-section container' id='projects'>
           <div className='title'>
-            <h2 className='text-white'>My Portfolio</h2>
+            <h2 className=''>My Portfolio</h2>
             <div className='title-underline'></div>
           </div>
           <div className='projects-container'>
@@ -90,7 +90,7 @@ function Home() {
 
       <div className='references-section container'>
         <div className='title'>
-          <h2>References</h2>
+          <h2 className='references-title'>References</h2>
         </div>
         <div className='title-underline'></div>
         <div className='recommendations-container container'>

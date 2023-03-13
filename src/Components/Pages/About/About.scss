@@ -6,7 +6,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #f8f8f8;
+    background-color: #fffaeb;
 
     //border-radius: 0.25rem;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -37,9 +37,10 @@
         display: block;
         object-fit: cover;
         position: relative;
+        border: solid 0.07rem hsl(42, 78%, 60%);
       }
     }
-/*
+    /*
     .about-image-container::before {
       content: "";
       width: 300px;
@@ -76,7 +77,7 @@
       }
 
       .web-developer {
-        color: #3C3799;
+        color: #3c3799;
         font-weight: 200;
         letter-spacing: 3px;
       }
