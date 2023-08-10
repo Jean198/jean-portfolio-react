@@ -1,6 +1,16 @@
 [
   {
     "id": 1,
+    "title": "TodoApp(React-Typescipt)",
+    "imageUrl": "/images/taskify.png",
+    "summary": "Todo app built with React and Typescript",
+    "GitHub_frontend": "https://github.com/Jean198/mytodoapp",
+    "GitHub_backend": null,
+    "GitHub_fullstack": null,
+    "projectUrl": "https://mytodoapp-typescript.netlify.app/"
+  },
+  {
+    "id": 2,
     "title": "Warehouse Management System",
     "imageUrl": "/images/wms.png",
     "summary": "Lorem",
@@ -10,7 +20,7 @@
     "projectUrl": "https://wms-app-coral.vercel.app/"
   },
   {
-    "id": 2,
+    "id": 3,
     "title": "finnmarket website",
     "imageUrl": "/images/finnmarket.png",
     "summary": "I have helped www.finnmarket.fi owner to build a website for his business. The site is built on shopify by customizing one of shopify themes. I am also regularly providing support services to him whenever he needs changes on his website for example integrating different apps, editing website layouts, adding new product collections...",
@@ -21,7 +31,7 @@
   },
 
   {
-    "id": 3,
+    "id": 4,
     "title": "Helsinki City Bikes(Internship pre-assignment 2023) ",
     "imageUrl": "/images/helsinki-bikes.png",
     "summary": "My attempt to solve the internship preassignment. The task description is found at https://github.com/solita/dev-academy-2023-exercise ",
@@ -32,7 +42,7 @@
   },
 
   {
-    "id": 4,
+    "id": 5,
     "title": "Birdnest(Internship pre-assignment 2023) ",
     "imageUrl": "/images/birdnest.png",
     "summary": "My attempt to solve the internship preassignment. The task description is found at https://assignments.reaktor.com/birdnest/ ",
@@ -43,7 +53,7 @@
   },
 
   {
-    "id": 5,
+    "id": 6,
     "title": "Internship task at Softrain Blobs Oy",
     "imageUrl": "/images/softrain.png",
     "summary": "While working as trainee software developer at Softrain Blobs Oy, my main task was to rewrite the Logitar software using React and Node js.For this task, my tools choice were Next js as react framework and tailwind css for styling. ",
@@ -51,7 +61,7 @@
   },
 
   {
-    "id": 6,
+    "id": 7,
     "title": "Task-manager ",
     "imageUrl": "/images/task-manager.png",
     "summary": "Simple task manager App with React, Node and Mongodb.",
@@ -62,7 +72,7 @@
   },
 
   {
-    "id": 7,
+    "id": 8,
     "title": "Memory-Game ",
     "imageUrl": "/images/memory-game.png",
     "summary": "Simple memory game build with React. Hope you enjoy it!",
@@ -73,7 +83,7 @@
   },
 
   {
-    "id": 8,
+    "id": 9,
     "title": "Crypto-currency tracker ",
     "imageUrl": "/images/crypt.png",
     "summary": "This app built with Next Js gives current overall information about crypto-currency values on the market.",
@@ -83,7 +93,7 @@
     "projectUrl": "https://crypto-currency-tracker-tau.vercel.app/"
   },
   {
-    "id": 9,
+    "id": 10,
     "title": "Iphone-Stopwatch",
     "imageUrl": "/images/iphone-stopwatch.png",
     "summary": "My attempt to clone the Iphone Stopwatch !",
@@ -94,7 +104,7 @@
   },
 
   {
-    "id": 10,
+    "id": 11,
     "title": "Countries info ",
     "imageUrl": "/images/countries.png",
     "summary": "You get basic information about all the countries in the world from this app!",
@@ -105,7 +115,7 @@
   },
 
   {
-    "id": 11,
+    "id": 12,
     "title": "Todo App ",
     "imageUrl": "/images/todoApp.png",
     "summary": "Simple todo App build with expressjs and EJS!",
